@@ -386,7 +386,8 @@ function finishQuiz() {
         
     } else {
         if(wrongAnswerSection) wrongAnswerSection.classList.add('hidden');
-        if(!isReviewMode && pendingQuizMode === 'normal') localStorage.removeItem('junior_review_queue');
+        // 修正: 復習モードで全問正解した場合、またはどのモードでも満点だった場合はリストをクリアする
+        localStorage.removeItem('junior_review_queue');
     }
 
     saveHistory(rank, score, totalSeconds, questionCount);
