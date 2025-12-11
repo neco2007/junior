@@ -2,360 +2,207 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>サービス介助士ジュニア試験 過去問題集</title>
-    <link rel="stylesheet" href="style.css"> 
-    <style>
-        /* --- 問題集表示用の追加CSS (紙の資料に似せるための基本設定) --- */
-        body {
-            font-family: 'Hiragino Mincho ProN', 'MS Mincho', serif; /* 明朝体に近いフォントに上書き */
-            line-height: 1.6;
-            background-color: #ffffff; /* 白い背景 */
-            color: #000000; /* 黒いテキスト */
-        }
-        .quiz-app-container {
-            /* .screen クラスの代わりに問題集用のコンテナを定義 */
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px 30px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.05); /* 紙の資料感を出すためのシャドウ */
-        }
-        .page-title {
-            font-size: 1.8rem;
-            font-weight: bold;
-            text-align: right;
-            border-bottom: 2px solid #000;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-        }
-        .instructions-text {
-            font-size: 0.9em;
-            margin-bottom: 30px;
-            border-bottom: 1px solid #000;
-            padding-bottom: 5px;
-        }
-        .question-item-display {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            font-size: 0.95em;
-        }
-        .question-number-display {
-            flex-shrink: 0;
-            width: 30px; /* 番号の幅を確保 */
-            font-weight: bold;
-            margin-right: 8px;
-            text-align: right;
-        }
-        .question-text-display {
-            flex-grow: 1;
-        }
-        .answer-mark-area {
-            flex-shrink: 0;
-            margin-left: 15px;
-            display: flex;
-            gap: 10px;
-            font-weight: bold;
-            font-size: 0.8em;
-        }
-        .answer-mark {
-            display: inline-block;
-            width: 14px;
-            height: 14px;
-            border: 1px solid #000;
-            border-radius: 50%;
-            margin-right: 3px;
-        }
-        .question-text-display strong {
-            /* 画像内の傍点・太字・下線（手書き）を太字で表現 */
-            font-weight: bold;
-            color: #333;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JUNIOR+ | サービス介助士ジュニア学習</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="quiz-app-container">
-        <div class="page-title">過去問題集</div>
+    <canvas id="opening-canvas"></canvas>
 
-        <div class="instructions-text">
-            次の各文を読んで、正しいものにはAのマークを、誤っているものにはBのマークをぬりつぶしなさい。
-        </div>
-        
-        <div class="problem-section">
-            <h3 style="margin-top: 30px; border-bottom: 1px dashed #aaa; padding-bottom: 5px; font-size: 1.1em;">令和6年度 抜粋問題</h3>
+    <div id="title-screen" class="screen hidden">
+        <div class="center-content">
+            <h1 class="app-title">JUNIOR+</h1>
+            <p class="sub-title">サービス介助士ジュニア<br>資格取得講座</p>
             
-            <div class="question-item-display">
-                <div class="question-number-display">1.</div>
-                <div class="question-text-display">ジュニア・ケアフィッターの知識や技術を学ぶことは、「共生力や生きる力」を身につけることに役立ちます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">2.</div>
-                <div class="question-text-display">人と関わる中で、ジュニア・ケアフィッターとして活躍する上で基本となることは、「基礎的な介助技術」を理解することです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">3.</div>
-                <div class="question-text-display">死を考えることは、一日一日を大切に「いかに生きるか」を考えることです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">4.</div>
-                <div class="question-text-display">障害の捉え方。考え方にはプラス思考とマイナス思考の2通りがありますが、マイナス思考をプラス思考に替えて物事を見ることも大切です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">5.</div>
-                <div class="question-text-display">諫言聴語（かんげんちょうご）とは、自分がへりくだることによって、相手の立場を高める言い方です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">6.</div>
-                <div class="question-text-display">介助をするときの大切な心がまえの1つに、「対話をする」ことがあり、しっかりと対話をして、相手が望むお手伝いをします。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">7.</div>
-                <div class="question-text-display">ノーマライゼーションの基本的な視点に、障害者は障害があるがままでノーマルであり、人間はまず人間である、という考えがあります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">8.</div>
-                <div class="question-text-display">バリアフリーという考え方を最初に提唱したのは、アメリカの建築家ロナルド・メイス氏です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">9.</div>
-                <div class="question-text-display">階段だけしかない駅に、エレベーターやエスカレーターを設置する工事をすることをユニバーサルデザインといいます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">10.</div>
-                <div class="question-text-display">「信号がわからない」のは、その人に見えないという障害があるからで、その困難を克服するのは、その個人（と家族）の責任だとする考え方を、「障害の社会モデル」といいます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">11.</div>
-                <div class="question-text-display">さまざまな人が生活する上で、バリアとなるものの中で、「障害者かわいそう」という考え方は、障害者に対する差別や偏見、理解不足による誤解により生じる観念のバリアです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">12.</div>
-                <div class="question-text-display">障害者差別解消法では不当な差別的取扱いを禁止しています。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">13.</div>
-                <div class="question-text-display">障害によるさまざまな理由で、順番を待つことが難しい方には、他の人の了解を得て、手続きを先にすることも合理的配慮です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">14.</div>
-                <div class="question-text-display">視覚障害者は、歩くときに白杖を使用する人もいれば、使用しない人もいますが、盲導犬は必ず使用しています。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">15.</div>
-                <div class="question-text-display">視覚障害者誘導用ブロックには、線状ブロックと点状ブロックの2種類があります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">16.</div>
-                <div class="question-text-display">視覚障害者の手引きの際に注意することは、声をかける前に身体に触れないことです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">17.</div>
-                <div class="question-text-display">手引きの際の基本姿勢は、手引き者が視覚障害者の半歩または一歩後ろに位置します。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">18.</div>
-                <div class="question-text-display">手引きの際に右折・左折のときは、いったん止まって直角に曲がるのが基本です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">19.</div>
-                <div class="question-text-display">手引きで狭い通路を通るときは、いったん止まって縦一列になることを伝え、手引き者はつかんでもらっている腕を背中に回して誘導します。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">20.</div>
-                <div class="question-text-display">聴覚障害者は、外見から聴覚に障害があることがわからないので、「話しかけたのに無視された」などと誤解を受ける場合がある。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">21.</div>
-                <div class="question-text-display">聴覚障害者とコミュニケーションをとる場合には、常に2種類以上の方法を組み合わせると効果的です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">22.</div>
-                <div class="question-text-display">**読唇**は、話し手の**唇**や**舌**の動き、**顔**の**表情**から話の内容を読み取る方法です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">23.</div>
-                <div class="question-text-display">聴覚障害者とのコミュニケーションで筆談を使う場合は、必要な情報だけを**簡潔**に書きます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">24.</div>
-                <div class="question-text-display">**補聴器**は耳の**周辺**に**一緒**に装着しますので、音の方向性までわからないなどの不便さがあります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">25.</div>
-                <div class="question-text-display">指文字は手の形で文字を表す聴覚言語で**五十音**だけでなく、**アルファベット**や**数字**もあります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">26.</div>
-                <div class="question-text-display">雨の日は、片手で傘を差し**ながら**車いすを操作してもかまいません。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">27.</div>
-                <div class="question-text-display">車いす操作での3つのポイントは、「**ブレーキ**」、「**フットサポート**」、「**声かけ**」です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">28.</div>
-                <div class="question-text-display">車いすに乗り降りするときや**一時停止**のときは、必ずブレーキをかけます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">29.</div>
-                <div class="question-text-display">車いす操作で声かけをする時は、上から見下ろすのではなく、同じ高さになって声をかけます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">30.</div>
-                <div class="question-text-display">坂道での車いす操作は、**上り**も**下り**も必ず前向きで操作するのが基本です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">31.</div>
-                <div class="question-text-display">段差を昇るときは車いすが後ろに傾きますが、前方から見えているので声かけは不要です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">32.</div>
-                <div class="question-text-display">人込みや混雑している場所で車いすを操作するときは、周囲の人の荷物や振り回す腕が車いす利用者の顔にくることがあるので、ぶつからない空間をつくります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">33.</div>
-                <div class="question-text-display">知的障害は、18歳未満において知的な機能の発達に障害があらわれ、日常生活に何らかの**支障**が生じます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">34.</div>
-                <div class="question-text-display">発達障害は、生まれつき脳の一部に何らかの障害があり、発達のしかたに**凸凹**があるため、生活する上で困りごとがあり、周囲の人に理解されにくい障害です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">35.</div>
-                <div class="question-text-display">精神障害は、こころと脳の**不調**によって、不安や落ち込みなどの症状が生じ、日常生活に困りごとが生じる病気です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">36.</div>
-                <div class="question-text-display">高齢者は視覚機能の低下から物が見えにくくなる症状があるが、**表示**や**掲示物**のコントラストは**濃い**色を使用する方が良いです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">37.</div>
-                <div class="question-text-display">聴覚機能が低下している高齢者と話をする場合は、**高い**声で話をするようにします。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">38.</div>
-                <div class="question-text-display">高齢者の味覚・嗅覚機能が低下している場合でも、腐敗したものを口にすることはないので、心配はいりません。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">39.</div>
-                <div class="question-text-display">高齢者がかかりやすい病気として、**高血圧症**、**脳卒中**、**動脈硬化症**、**糖尿病**などがあります。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">40.</div>
-                <div class="question-text-display">人口は年齢によって3つの区分に分けられますが、そのうち**生産年齢人口**は、15歳～70歳までの人の数のことです。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">41.</div>
-                <div class="question-text-display">**合計特殊出生率**とは、**未婚**・**既婚**を問わず、1人の女性が20歳～49歳までに産む子どもの数の**推計値**をいいます。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">42.</div>
-                <div class="question-text-display">日本では現状の人口を維持するために2.08の**合計特殊出生率**が必要です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">43.</div>
-                <div class="question-text-display">**身体障害者補助犬法**によって、**公共施設**及び**公共交通機関**だけでなく、すべての**民間施設**においても補助犬同伴の身体障害者の受け入れが義務づけられています。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">44.</div>
-                <div class="question-text-display">身体障害者補助犬法の中では、国民は補助犬を連れている身体障害者に**協力**しなければならないと定められており、この法律は**すべて**の国民が知っています。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">45.</div>
-                <div class="question-text-display">**介助犬**は、**肢体不自由者**の日常生活動作をサポートするように訓練された犬です。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">46.</div>
-                <div class="question-text-display">**聴導犬**は、聴覚障害者の耳の代わりとなり、必要な**音**を教え、**音源**へ**誘導**します。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">47.</div>
-                <div class="question-text-display">補助犬の表示は、ハーネスや**胴着**・**ケープ**などに付けていますが、周囲の人が見ても補助犬だとわからない配慮がされています。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">48.</div>
-                <div class="question-text-display">補助犬と補助犬使用者に出会ったら、温かく見守り、**困っているようなら**声をかけ、必要なお手伝いをします。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">49.</div>
-                <div class="question-text-display">心のバリアフリーでは、バリアを感じている人のために自分に何が出来るかを考え、コミュニケーションをとってバリアを取り除くことを奨励します。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">50.</div>
-                <div class="question-text-display">心のバリアフリーでは、無関心をやめ、相手の立場になり行動します。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
+            <button id="resume-btn" class="primary-btn resume-color hidden pulse">
+                前回から再開する
+            </button>
+
+            <button id="title-start-btn" class="primary-btn pulse">学習メニューへ</button>
         </div>
-
-        <div class="problem-section" style="margin-top: 50px; padding-top: 20px; border-top: 1px dashed #ccc;">
-            <h3 style="border-bottom: 1px dashed #aaa; padding-bottom: 5px; font-size: 1.1em;">令和5年度 抜粋問題 (参考)</h3>
-
-            <div class="question-item-display">
-                <div class="question-number-display">1.</div>
-                <div class="question-text-display">ジュニア・ケアフィッターの知識や技術を学ぶことは、「共生力や生きる力を身につけることに役立ちます」。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            <div class="question-item-display">
-                <div class="question-number-display">2.</div>
-                <div class="question-text-display">ジュニア・ケアフィッターとして活躍する上で基本となることは、「基礎的な介助技術」を身につければよい。</div>
-                <div class="answer-mark-area"><span class="answer-mark"></span>A <span class="answer-mark"></span>B</div>
-            </div>
-            </div>
-
-        <p style="text-align: right; margin-top: 40px; font-size: 0.8em; color: #888;">--- 終 ---</p>
-
     </div>
 
+    <div id="menu-screen" class="screen hidden">
+        <div class="center-content">
+            <h2 class="menu-title">メインメニュー</h2>
+            
+            <div class="menu-buttons">
+                <button id="past-menu-btn" class="menu-btn past-color">
+                    <span class="btn-icon"></span> 過去問に挑戦
+                </button>
+
+                <button id="random-menu-btn" class="menu-btn accent-color">
+                    <span class="btn-icon"></span> ランダム出題
+                </button>
+
+                <button id="start-quiz-btn" class="menu-btn primary-color rich-border">
+                    <span class="btn-icon"></span> 問題を開始
+                </button>
+
+                <button id="review-mode-btn" class="menu-btn success-color hidden">
+                    <span class="btn-icon"></span> 間違えた問題を復習
+                </button>
+
+                <button id="history-btn" class="menu-btn info-color">
+                    <span class="btn-icon"></span> 学習履歴
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="random-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-random-btn" class="modal-close-icon">×</button>
+            <h2 class="modal-title">出題数を選択</h2>
+            <p style="margin-bottom:20px; color:#666;">教科書の課題からランダムに出題します。<br>結果は復習リストに保存されます。</p>
+            <div class="menu-buttons" style="margin: 0 auto;">
+                <button class="menu-btn accent-color random-opt-btn" data-count="5">5問 (サクッと)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="15">15問 (ちょうどいい)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="25">25問 (がっつり)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="50">全問 (50問)</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="past-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-past-btn" class="modal-close-icon">×</button>
+            <h2 class="modal-title">過去問: 出題数</h2>
+            <p style="margin-bottom:20px; color:#666;">過去の試験問題から出題します。<br>実力を試してみましょう。</p>
+            <div class="menu-buttons" style="margin: 0 auto;">
+                <button class="menu-btn past-color past-opt-btn" data-count="5">5問 (サクッと)</button>
+                <button class="menu-btn past-color past-opt-btn" data-count="15">15問 (ちょうどいい)</button>
+                <button class="menu-btn past-color past-opt-btn" data-count="25">25問 (がっつり)</button>
+                <button class="menu-btn past-color past-opt-btn" data-count="50">全問挑戦</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="rule-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-rule-btn" class="modal-close-icon">×</button>
+            <h2 class="modal-title">ルール説明</h2>
+            <div class="rule-list">
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <div>
+                        <p>正しいものは <strong>A 正しい</strong></p>
+                        <p>間違いは <strong>B 誤っている</strong></p>
+                        <p>を選択してください。</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <p>1問<strong>2点</strong>です。<br>合計点とタイムを競います。</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <p><strong>70点以上</strong>で合格圏内！<br>回答速度と正確さで<br><strong>ランク(S~D)</strong>が決まります。</p>
+                </div>
+            </div>
+            <button id="rule-start-btn" class="primary-btn">理解してスタート！</button>
+        </div>
+    </div>
+
+    <div id="quiz-screen" class="screen hidden">
+        <header>
+            <div class="header-inner">
+                <button id="quit-quiz-btn" class="text-btn">✕ 中断</button>
+                <span id="progress-text">1 / 50</span>
+            </div>
+            <div id="progress-bar"><div id="progress-fill"></div></div>
+        </header>
+
+        <main>
+            <div id="quiz-card">
+                <div id="question-area">
+                    <h2 id="question-number">Q.1</h2>
+                    <p id="question-text">問題を読み込んでいます...</p>
+
+                    <div id="options">
+                        <button class="option-btn" data-answer="A">
+                            <span class="opt-label">A</span> 正しい
+                        </button>
+                        <button class="option-btn" data-answer="B">
+                            <span class="opt-label">B</span> 誤っている
+                        </button>
+                    </div>
+
+                    <div id="hint-container">
+                        <button id="hint-toggle-btn">ヒントを見る</button>
+                        <div id="hint-area" class="hidden">
+                            <p id="hint-page-info"></p>
+                            <div id="hint-text"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="processing-area" class="hidden">
+                    <div class="colorful-loader"></div>
+                    <p class="loading-text">判定中...</p>
+                </div>
+
+                <div id="answer-area" class="hidden">
+                    <div id="feedback"></div>
+                </div>
+            </div>
+        </main>
+
+        <div id="action-bar" class="hidden">
+            <button id="next-btn" class="action-btn">次の問題へ</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <div class="result-container">
+            <h2 class="result-title">結果発表</h2>
+            
+            <div id="score-board">
+                <div class="rank-badge" id="result-rank">-</div>
+                <div class="score-display">
+                    <span id="result-score">0</span><span class="unit">点</span>
+                </div>
+                <p id="pass-fail-text" class="pass-fail">判定...</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="label">正解率</span>
+                    <span class="value" id="result-accuracy">0%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">回答時間</span>
+                    <span class="value" id="result-time">0分00秒</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">平均速度</span>
+                    <span class="value" id="result-speed">0秒/問</span>
+                </div>
+            </div>
+
+            <div id="wrong-answer-section" class="hidden">
+                <h3>間違えた問題の復習</h3>
+                <div id="wrong-answer-list"></div>
+                <button id="retry-wrong-btn" class="menu-btn success-color" style="margin-top:20px;">この内容で反復練習する</button>
+            </div>
+
+            <button id="back-to-menu-btn" class="menu-btn primary-color" style="margin-top:20px;">メインメニューに戻る</button>
+        </div>
+    </div>
+
+    <div id="history-screen" class="screen hidden">
+        <header>
+            <div class="header-inner">
+                <span class="logo-mini">学習履歴</span>
+                <button id="close-history-btn" class="close-btn">✕ 閉じる</button>
+            </div>
+        </header>
+        <main>
+            <div id="history-list"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

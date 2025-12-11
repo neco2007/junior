@@ -1,0 +1,796 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "ジュニア・ケアフィッターの知識や技術を学ぶことは、「共生力や生きる力」を身につけることに役立ちます。",
+      "correct_answer": "A",
+      "hint_page": "p4",
+      "hint_text": "これからの<ruby>人生<rt>じんせい</rt></ruby>を<ruby>生<rt>い</rt></ruby>きる<ruby>上<rt>うえ</rt></ruby>で、<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>人々<rt>ひとびと</rt></ruby>と<ruby>共<rt>とも</rt></ruby>に<ruby>生<rt>い</rt></ruby>きる<span class='highlight_red'>「<ruby>共生力<rt>きょうせいりょく</rt></ruby>」</span>や、<ruby>自<rt>みずか</rt></ruby>ら<ruby>課題<rt>かだい</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけ、<ruby>主体的<rt>しゅたいてき</rt></ruby>に<ruby>解決<rt>かいけつ</rt></ruby>する<span class='highlight_red'>「<ruby>生<rt>い</rt></ruby>きる<ruby>力<rt>ちから</rt></ruby>」</span>を<ruby>身<rt>み</rt></ruby>につけることに<ruby>役<rt>やく</rt></ruby>れちます。",
+      "problem_page": 98
+    },
+    {
+      "id": 2,
+      "question": "人と関わる中で、ジュニア・ケアフィッターとして活躍する上で基本となることは、「基礎的な介助技術」を理解することです。",
+      "correct_answer": "A",
+      "hint_page": "p4",
+      "hint_text": "<ruby>人<rt>ひと</rt></ruby>と<ruby>関<rt>かか</rt></ruby>わる<ruby>中<rt>なか</rt></ruby>で、<span class='highlight_red'>「おもてなしの<ruby>心<rt>こころ</rt></ruby>」</span>の<ruby>大切<rt>たいせつ</rt></ruby>さを<ruby>理解<rt>りかい</rt></ruby>することは、ジュニア・ケアフィッターとして<ruby>活躍<rt>かつやく</rt></ruby>する<ruby>上<rt>うえ</rt></ruby>で<ruby>基本<rt>きほん</rt></ruby>となります。",
+      "problem_page": 98
+    },
+    {
+      "id": 3,
+      "question": "死を考えることは、一日一日を大切に「いかに生きるか」を考えることです。",
+      "correct_answer": "A",
+      "hint_page": "p17",
+      "hint_text": "<ruby>死<rt>し</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>えることは、<span class='highlight_red'><ruby>一日一日<rt>いちにちいちにち</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>にして「いかに<ruby>生<rt>い</rt></ruby>きるか」を<ruby>考<rt>かんが</rt></ruby>えること</span>なのです。",
+      "problem_page": 98
+    },
+    {
+      "id": 4,
+      "question": "障害の捉え方。考え方にはプラス思考とマイナス思考の2通りがありますが、マイナス思考をプラス思考に替えて物事を見ることも大切です。",
+      "correct_answer": "A",
+      "hint_page": "p23",
+      "hint_text": "<ruby>日頃<rt>ひごろ</rt></ruby>から<span class='highlight_red'>プラス<ruby>思考<rt>しこう</rt></ruby>で<ruby>物事<rt>ものごと</rt></ruby>を<ruby>考<rt>かんが</rt></ruby>える</span>ようにしていきましょう。",
+      "problem_page": 98
+    },
+    {
+      "id": 5,
+      "question": "諫言聴語（かんげんちょうご）とは、自分がへりくだることによって、相手の立場を高める言い方です。",
+      "correct_answer": "B",
+      "hint_page": "p25",
+      "hint_text": "<ruby>自分<rt>じぶん</rt></ruby>がへりくだることによって、<ruby>相手<rt>あいて</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>を<ruby>高<rt>たか</rt></ruby>める<ruby>言<rt>い</rt></ruby>い<ruby>方<rt>かた</rt></ruby>は<span class='highlight_red'>「<ruby>謙譲語<rt>けんじょうご</rt></ruby>」</span>です。「<ruby>諫言聴語<rt>かんげんちょうご</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>はありません。",
+      "problem_page": 98
+    },
+    {
+      "id": 6,
+      "question": "介助をするときの大切な心がまえの1つに、「対話をする」ことがあり、しっかりと対話をして、相手が望むお手伝いをします。",
+      "correct_answer": "A",
+      "hint_page": "p49",
+      "hint_text": "<ruby>建設的<rt>けんせつてき</rt></ruby>な<span class='highlight_red'><ruby>対話<rt>たいわ</rt></ruby></span>に<ruby>努<rt>つと</rt></ruby>めることで、<ruby>相手<rt>あいて</rt></ruby>の<ruby>意向<rt>いこう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し<ruby>解決策<rt>かいけつさく</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることが<ruby>大切<rt>たいせつ</rt></ruby>です。",
+      "problem_page": 98
+    },
+    {
+      "id": 7,
+      "question": "ノーマライゼーションの基本的な視点に、障害者は障害があるがままでノーマルであり、人間はまず人間である、という考えがあります。",
+      "correct_answer": "A",
+      "hint_page": "p35",
+      "hint_text": "<ruby>障害者<rt>しょうがいしゃ</rt></ruby>は<ruby>障害<rt>しょうがい</rt></ruby>があるまでノーマルであり、<ruby>人間<rt>にんげん</rt></ruby>はまずノーマルなものにするという<span class='highlight_red'>ノーマライゼーション</span>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>があります。",
+      "problem_page": 98
+    },
+    {
+      "id": 8,
+      "question": "バリアフリーという考え方を最初に提唱したのは、アメリカの建築家ロナルド・メイス氏です。",
+      "correct_answer": "B",
+      "hint_page": "p37",
+      "hint_text": "ロナルド・メイス<ruby>氏<rt>し</rt></ruby>が<ruby>提唱<rt>ていしょう</rt></ruby>したのは「バリアフリー」ではなく<span class='highlight_red'>「ユニバーサルデザイン」</span>です。",
+      "problem_page": 98
+    },
+    {
+      "id": 9,
+      "question": "階段だけしかない駅に、エレベーターやエスカレーターを設置する工事をすることをユニバーサルデザインといいます。",
+      "correct_answer": "B",
+      "hint_page": "p37",
+      "hint_text": "あとから<ruby>工事<rt>こうじ</rt></ruby>をして<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くので、これは<span class='highlight_red'>「バリアフリー」</span>にあたります。",
+      "problem_page": 98
+    },
+    {
+      "id": 10,
+      "question": "「信号がわからない」のは、その人に見えないという障害があるからで、その困難を克服するのは、その個人（と家族）の責任だとする考え方を、「障害の社会モデル」といいます。",
+      "correct_answer": "B",
+      "hint_page": "p42",
+      "hint_text": "<ruby>個人<rt>こじん</rt></ruby>の<ruby>責任<rt>せきにん</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>えるのは<span class='highlight_red'>「<ruby>障害<rt>しょうがい</rt></ruby>の<ruby>個人<rt>こじん</rt></ruby>モデル」</span>です。「<ruby>社会<rt>しゃかい</rt></ruby>モデル」は、<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>仕組<rt>しく</rt></ruby>みが<ruby>原因<rt>げんいん</rt></ruby>であると<ruby>考<rt>かんが</rt></ruby>えます。",
+      "problem_page": 98
+    },
+    {
+      "id": 11,
+      "question": "さまざまな人が生活する上で、バリアとなるものの中で、「障害者かわいそう」という考え方は、障害者に対する差別や偏見、理解不足による誤解により生じる観念のバリアです。",
+      "correct_answer": "A",
+      "hint_page": "p43",
+      "hint_text": "「<ruby>障害者<rt>しょうがいしゃ</rt></ruby>はかわいそう」という<ruby>気持<rt>きも</rt></ruby>ちは、<span class='highlight_red'><ruby>観念<rt>かんねん</rt></ruby>のバリア</span>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 12,
+      "question": "障害者差別解消法では不当な差別的取扱いを禁止しています。",
+      "correct_answer": "A",
+      "hint_page": "p48",
+      "hint_text": "<ruby>法律<rt>ほうりつ</rt></ruby>により、<span class='highlight_red'>「<ruby>不当<rt>ふとう</rt></ruby>な<ruby>差別<rt>さべつ</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い」</span>と「<ruby>合理的配慮<rt>ごうりてきはいりょ</rt></ruby>の<ruby>不提供<rt>ふていきょう</rt></ruby>」が<ruby>禁止<rt>きんし</rt></ruby>されています。",
+      "problem_page": 99
+    },
+    {
+      "id": 13,
+      "question": "障害によるさまざまな理由で、順番を待つことが難しい方には、他の人の了解を得て、手続きを先にすることも合理的配慮です。",
+      "correct_answer": "A",
+      "hint_page": "p49",
+      "hint_text": "<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>の<ruby>理解<rt>りかい</rt></ruby>を<ruby>得<rt>え</rt></ruby>て、<ruby>手続<rt>てつづ</rt></ruby>き<ruby>順<rt>じゅん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>にするなども<span class='highlight_red'><ruby>合理的配慮<rt>ごうりてきはいりょ</rt></ruby></span>の<ruby>一例<rt>いちれい</rt></ruby>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 14,
+      "question": "視覚障害者は、歩くときに白杖を使用する人もいれば、使用しない人もいますが、盲導犬は必ず使用しています。",
+      "correct_answer": "B",
+      "hint_page": "p51",
+      "hint_text": "<ruby>盲導犬<rt>もうどうけん</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>している<ruby>人<rt>ひと</rt></ruby>は<span class='highlight_red'>わずか941<ruby>人<rt>にん</rt></ruby></span>（2019<ruby>年<rt>ねん</rt></ruby>）であり、<ruby>全員<rt>ぜんいん</rt></ruby>ではありません。",
+      "problem_page": 99
+    },
+    {
+      "id": 15,
+      "question": "視覚障害者誘導用ブロックには、線状ブロックと点状ブロックの2種類があります。",
+      "correct_answer": "A",
+      "hint_page": "p53",
+      "hint_text": "<ruby>視覚障害者誘導用<rt>しかくしょうがいしゃゆうどうよう</rt></ruby>ブロックには、<span class='highlight_red'><ruby>線状<rt>せんじょう</rt></ruby>ブロックと<ruby>点状<rt>てんじょう</rt></ruby>ブロックの2<ruby>種類<rt>しゅるい</rt></ruby></span>があります。",
+      "problem_page": 99
+    },
+    {
+      "id": 16,
+      "question": "視覚障害者の手引きの際に注意することは、声をかける前に身体に触れないことです。",
+      "correct_answer": "A",
+      "hint_page": "p54",
+      "hint_text": "<ruby>急<rt>きゅう</rt></ruby>に<ruby>身体<rt>からだ</rt></ruby>にふれると<ruby>驚<rt>おどろ</rt></ruby>いてしまいます。<span class='highlight_red'>なるべく<ruby>正面<rt>しょうめん</rt></ruby>から<ruby>声<rt>こえ</rt></ruby>をかけてから</span>ふれてください。",
+      "problem_page": 99
+    },
+    {
+      "id": 17,
+      "question": "手引きの際の基本姿勢は、手引き者が視覚障害者の半歩または一歩後ろに位置します。",
+      "correct_answer": "B",
+      "hint_page": "p55",
+      "hint_text": "<ruby>手引<rt>てび</rt></ruby>き<ruby>者<rt>しゃ</rt></ruby>は<ruby>視覚障害者<rt>しかくしょうがいしゃ</rt></ruby>の<ruby>半歩<rt>はんぽ</rt></ruby>または<ruby>一歩<rt>いっぽ</rt></ruby><span class='highlight_red'>「<ruby>前<rt>まえ</rt></ruby>」</span>に<ruby>位置<rt>いち</rt></ruby>します。",
+      "problem_page": 99
+    },
+    {
+      "id": 18,
+      "question": "手引きの際に右折・左折のときは、いったん止まって直角に曲がるのが基本です。",
+      "correct_answer": "A",
+      "hint_page": "p55",
+      "hint_text": "<ruby>右折<rt>うせつ</rt></ruby>・<ruby>左折<rt>させつ</rt></ruby>のときは、<span class='highlight_red'>いったん<ruby>止<rt>と</rt></ruby>まって<ruby>直角<rt>ちょっかく</rt></ruby>に<ruby>曲<rt>ま</rt></ruby>がる</span>のが<ruby>基本<rt>きほん</rt></ruby>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 19,
+      "question": "手引きで狭い通路を通るときは、いったん止まって縦一列になることを伝え、手引き者はつかんでもらっている腕を背中に回して誘導します。",
+      "correct_answer": "A",
+      "hint_page": "p56",
+      "hint_text": "<ruby>狭<rt>せま</rt></ruby>い<ruby>通路<rt>つうろ</rt></ruby>では<span class='highlight_red'><ruby>縦<rt>たて</rt></ruby><ruby>一列<rt>いちれつ</rt></ruby></span>になり、<ruby>腕<rt>うで</rt></ruby>を<ruby>背中<rt>せなか</rt></ruby>に<ruby>回<rt>まわ</rt></ruby>して<ruby>誘導<rt>ゆうどう</rt></ruby>します。",
+      "problem_page": 99
+    },
+    {
+      "id": 20,
+      "question": "聴覚障害者は、外見から聴覚に障害があることがわからないので、「話しかけたのに無視された」などと誤解を受ける場合がある。",
+      "correct_answer": "A",
+      "hint_page": "p59",
+      "hint_text": "<ruby>外見<rt>がいけん</rt></ruby>からは<ruby>障害<rt>しょうがい</rt></ruby>がわからないので、<span class='highlight_red'><ruby>誤解<rt>ごかい</rt></ruby>を<ruby>受<rt>う</rt></ruby>ける<ruby>場合<rt>ばあい</rt></ruby>もあります</span>。",
+      "problem_page": 99
+    },
+    {
+      "id": 21,
+      "question": "聴覚障害者とコミュニケーションをとる場合には、常に2種類以上の方法を組み合わせると効果的です。",
+      "correct_answer": "A",
+      "hint_page": "p60",
+      "hint_text": "<span class='highlight_red'><ruby>常<rt>つね</rt></ruby>に2<ruby>種類<rt>しゅるい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせて<ruby>使<rt>つか</rt></ruby>うと<ruby>効果的<rt>こうかてき</rt></ruby></span>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 22,
+      "question": "読唇（口話）は、話し手の唇や舌の動き、顔の表情から話の内容を読み取る方法です。",
+      "correct_answer": "A",
+      "hint_page": "p60",
+      "hint_text": "<ruby>口話<rt>こうわ</rt></ruby>（<ruby>読話<rt>どくわ</rt></ruby>）は、<span class='highlight_red'><ruby>唇<rt>くちびる</rt></ruby>や<ruby>舌<rt>した</rt></ruby>の<ruby>動<rt>うご</rt></ruby>き、<ruby>顔<rt>かお</rt></ruby>の<ruby>表情<rt>ひょうじょう</rt></ruby></span>から<ruby>読<rt>よ</rt></ruby>み<ruby>取<rt>と</rt></ruby>ります。",
+      "problem_page": 99
+    },
+    {
+      "id": 23,
+      "question": "聴覚障害者とのコミュニケーションで筆談を使う場合は、必要な情報だけを簡潔に書きます。",
+      "correct_answer": "A",
+      "hint_page": "p60",
+      "hint_text": "<ruby>筆談<rt>ひつだん</rt></ruby>では<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>だけを<span class='highlight_red'><ruby>簡潔<rt>かんけつ</rt></ruby>に</span><ruby>書<rt>か</rt></ruby>きます。キーワードのみでも<ruby>伝<rt>つた</rt></ruby>わります。",
+      "problem_page": 99
+    },
+    {
+      "id": 24,
+      "question": "補聴器は耳の周辺の音を拾いますが、雑音はカットされるため非常に聞き取りやすい。",
+      "correct_answer": "B",
+      "hint_page": "p63",
+      "hint_text": "<ruby>補聴器<rt>ほちょうき</rt></ruby>は「<ruby>周辺<rt>しゅうへん</rt></ruby>の<span class='highlight_red'><ruby>雑音<rt>ざつおん</rt></ruby>も<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>集音<rt>しゅうおん</rt></ruby>しますので</span>...<ruby>不便<rt>ふべん</rt></ruby>さもあります」と<ruby>書<rt>か</rt></ruby>かれています。",
+      "problem_page": 99
+    },
+    {
+      "id": 25,
+      "question": "指文字は手の形で文字を表す視覚言語で、五十音だけでなく、アルファベットや数字もあります。",
+      "correct_answer": "A",
+      "hint_page": "p64",
+      "hint_text": "<ruby>指文字<rt>ゆびもじ</rt></ruby>は<span class='highlight_red'><ruby>五十音<rt>ごじゅうおん</rt></ruby>だけでなく、アルファベットや<ruby>数字<rt>すうじ</rt></ruby>もある</span>と<ruby>記載<rt>きさい</rt></ruby>されています。",
+      "problem_page": 99
+    },
+    {
+      "id": 26,
+      "question": "雨の日は、片手で傘を差しながら車いすを操作してもかまいません。",
+      "correct_answer": "B",
+      "hint_page": "p68",
+      "hint_text": "<ruby>片手<rt>かたて</rt></ruby>で<ruby>傘<rt>かさ</rt></ruby>を<ruby>差<rt>さ</rt></ruby>しなが<ruby>操作<rt>そうさ</rt></ruby>をするのは<ruby>危険<rt>きけん</rt></ruby>ですので<ruby>避<rt>さ</rt></ruby>けましょう。<span class='highlight_red'><ruby>必<rt>かなら</rt></ruby>ず<ruby>両手<rt>りょうて</rt></ruby>で</span><ruby>操作<rt>そうさ</rt></ruby>します。",
+      "problem_page": 100
+    },
+    {
+      "id": 27,
+      "question": "車いす操作での3つのポイントは、「ブレーキ」、「フットサポート」、「声かけ」です。",
+      "correct_answer": "A",
+      "hint_page": "p68",
+      "hint_text": "<ruby>車<rt>くるま</rt></ruby>いす<ruby>操作<rt>そうさ</rt></ruby>の3つのポイントは、<span class='highlight_red'>①ブレーキ、②フットサポート、③<ruby>声<rt>こえ</rt></ruby>かけ</span> です。",
+      "problem_page": 100
+    },
+    {
+      "id": 28,
+      "question": "車いすに乗り降りするときや一時停止のときは、必ずブレーキをかけます。",
+      "correct_answer": "A",
+      "hint_page": "p69",
+      "hint_text": "<ruby>乗<rt>の</rt></ruby>り<ruby>降<rt>お</rt></ruby>りするときや<ruby>一時停止<rt>いちじていし</rt></ruby>のときは、<span class='highlight_red'><ruby>必<rt>かなら</rt></ruby>ずブレーキをかけます</span>。",
+      "problem_page": 100
+    },
+    {
+      "id": 29,
+      "question": "車いす操作で声かけをする時は、上から見下ろすのではなく、同じ高さになって声をかけます。",
+      "correct_answer": "A",
+      "hint_page": "p69",
+      "hint_text": "<ruby>上<rt>うえ</rt></ruby>から<ruby>見下<rt>みお</rt></ruby>ろすのではなく、<span class='highlight_red'><ruby>同<rt>おな</rt></ruby>じ<ruby>高<rt>たか</rt></ruby>さになって<ruby>声<rt>こえ</rt></ruby></span>をかけてください。",
+      "problem_page": 100
+    },
+    {
+      "id": 30,
+      "question": "坂道での車いす操作は、上りも下りも必ず前向きで操作するのが基本です。",
+      "correct_answer": "B",
+      "hint_page": "p71",
+      "hint_text": "<ruby>上<rt>のぼ</rt></ruby>りは<ruby>前向<rt>まえむ</rt></ruby>きですが、<span class='highlight_red'><ruby>下<rt>くだ</rt></ruby>りは「<ruby>後<rt>うし</rt></ruby>ろ<ruby>向<rt>む</rt></ruby>き」</span>で<ruby>操作<rt>そうさ</rt></ruby>します。",
+      "problem_page": 100
+    },
+    {
+      "id": 31,
+      "question": "段差を昇るときは車いすが後ろに傾きますが、前方から見えているので声かけは不要です。",
+      "correct_answer": "B",
+      "hint_page": "p72",
+      "hint_text": "<ruby>車<rt>くるま</rt></ruby>いすが<ruby>後<rt>うし</rt></ruby>ろに<ruby>傾<rt>かたむ</rt></ruby>くことを<ruby>伝<rt>つた</rt></ruby>え、<span class='highlight_red'><ruby>不安感<rt>ふあんかん</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えない</span>ようにします。",
+      "problem_page": 100
+    },
+    {
+      "id": 32,
+      "question": "人込みや混雑している場所で車いすを操作するときは、周囲の人の荷物や振り回す腕が車いす利用者の顔にくることがあるので、ぶつからない空間をつくります。",
+      "correct_answer": "A",
+      "hint_page": "p73",
+      "hint_text": "<ruby>位置関係<rt>いちかんけい</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>配慮<rt>はいりょ</rt></ruby>して、<span class='highlight_red'><ruby>顔<rt>かお</rt></ruby>にぶつからないような<ruby>空間<rt>くうかん</rt></ruby></span>をつくります。",
+      "problem_page": 100
+    },
+    {
+      "id": 33,
+      "question": "知的障害は、18歳未満において知的な機能の発達に障害があらわれ、日常生活に何らかの支障が生じます。",
+      "correct_answer": "A",
+      "hint_page": "p75",
+      "hint_text": "<span class='highlight_red'>18<ruby>歳未満<rt>さいみまん</rt></ruby></span>で<ruby>発症<rt>はっしょう</rt></ruby>し、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>支障<rt>ししょう</rt></ruby>が<ruby>生<rt>しょう</rt></ruby>じている<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>指<rt>さ</rt></ruby>します。",
+      "problem_page": 100
+    },
+    {
+      "id": 34,
+      "question": "発達障害は、生まれつき脳の一部に何らかの障害があり、発達のしかたに凸凹があるため、生活する上で困りごとがあり、周囲の人に理解されにくい障害です。",
+      "correct_answer": "A",
+      "hint_page": "p76",
+      "hint_text": "<ruby>発達<rt>はったつ</rt></ruby>のしかたに<span class='highlight_red'><ruby>凸凹<rt>でこぼこ</rt></ruby></span>があり、<ruby>理解<rt>りかい</rt></ruby>されにくい<ruby>障害<rt>しょうがい</rt></ruby>です。",
+      "problem_page": 100
+    },
+    {
+      "id": 35,
+      "question": "精神障害は、こころと脳の不調によって、不安や落ち込みなどの症状が生じ、日常生活に困りごとが生じる病気です。",
+      "correct_answer": "A",
+      "hint_page": "p77",
+      "hint_text": "<span class='highlight_red'>こころと<ruby>脳<rt>のう</rt></ruby>の<ruby>不調<rt>ふちょう</rt></ruby></span>によって<ruby>生<rt>しょう</rt></ruby>じる<ruby>病気<rt>びょうき</rt></ruby>です。",
+      "problem_page": 100
+    },
+    {
+      "id": 36,
+      "question": "高齢者は視覚機能の低下から物が見えにくくなる症状があるが、表示や掲示物のコントラストは濃い色を使用する方が良いです。",
+      "correct_answer": "B",
+      "hint_page": "p80",
+      "hint_text": "<ruby>表示<rt>ひょうじ</rt></ruby>や<ruby>掲示物<rt>けいじぶつ</rt></ruby>は「<span class='highlight_red'>コントラストの<ruby>強<rt>つよ</rt></ruby>い<ruby>色<rt>いろ</rt></ruby></span>」を<ruby>使用<rt>しよう</rt></ruby>します。<ruby>単<rt>たん</rt></ruby>に<ruby>濃<rt>こ</rt></ruby>ければ<ruby>良<rt>よ</rt></ruby>いわけではありません。",
+      "problem_page": 100
+    },
+    {
+      "id": 37,
+      "question": "聴覚機能が低下している高齢者と話をする場合は、高い声で話をするようにします。",
+      "correct_answer": "B",
+      "hint_page": "p81",
+      "hint_text": "<ruby>低音<rt>ていおん</rt></ruby>より<ruby>高音<rt>こうおん</rt></ruby>が<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>りにくいため、<span class='highlight_red'><ruby>必要以上<rt>ひつよういじょう</rt></ruby>に<ruby>甲高<rt>かんだか</rt></ruby>い<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>さない</span>ようにします。",
+      "problem_page": 100
+    },
+    {
+      "id": 38,
+      "question": "高齢者の味覚・嗅覚機能が低下している場合でも、腐敗したものを口にすることはないので、心配はいりません。",
+      "correct_answer": "B",
+      "hint_page": "p81",
+      "hint_text": "<ruby>腐敗<rt>ふはい</rt></ruby>したものを<span class='highlight_red'><ruby>誤<rt>あやま</rt></ruby>って<ruby>口<rt>くち</rt></ruby>にする<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いので、<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby></span>です。",
+      "problem_page": 100
+    },
+    {
+      "id": 39,
+      "question": "高齢者がかかりやすい病気として、高血圧症、脳卒中、動脈硬化症、糖尿病などがあります。",
+      "correct_answer": "A",
+      "hint_page": "p79",
+      "hint_text": "かかりやすい<ruby>病気<rt>びょうき</rt></ruby>として、<span class='highlight_red'>がん、<ruby>動脈硬化症<rt>どうみゃくこうかしょう</rt></ruby>、<ruby>高血圧症<rt>こうけつあつしょう</rt></ruby>、<ruby>糖尿病<rt>とうにょうびょう</rt></ruby>、<ruby>脳卒中<rt>のうそっちゅう</rt></ruby></span>などがあります。",
+      "problem_page": 100
+    },
+    {
+      "id": 40,
+      "question": "人口は年齢によって3つの区分に分けられますが、そのうち生産年齢人口は、15歳～70歳までの人の数のことです。",
+      "correct_answer": "B",
+      "hint_page": "p83",
+      "hint_text": "<ruby>生産年齢人口<rt>せいさんねんれいじんこう</rt></ruby>は、<span class='highlight_red'>15<ruby>歳<rt>さい</rt></ruby>〜64<ruby>歳<rt>さい</rt></ruby></span>です。",
+      "problem_page": 100
+    },
+    {
+      "id": 41,
+      "question": "合計特殊出生率とは、未婚・既婚を問わず、1人の女性が20歳～49歳までに産む子どもの数の推計値をいいます。",
+      "correct_answer": "B",
+      "hint_page": "p84",
+      "hint_text": "<ruby>対象<rt>たいしょう</rt></ruby>は<span class='highlight_red'>15<ruby>歳<rt>さい</rt></ruby>〜49<ruby>歳<rt>さい</rt></ruby></span>の<ruby>女性<rt>じょせい</rt></ruby>です。",
+      "problem_page": 101
+    },
+    {
+      "id": 42,
+      "question": "日本では現状の人口を維持するために2.08の合計特殊出生率が必要です。",
+      "correct_answer": "A",
+      "hint_page": "p84",
+      "hint_text": "<ruby>現状<rt>げんじょう</rt></ruby>の<ruby>人口<rt>じんこう</rt></ruby>を<ruby>維持<rt>いじ</rt></ruby>するためには<span class='highlight_red'>2.08</span>の<ruby>合計特殊出生率<rt>ごうけいとくしゅしゅっしょうりつ</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。",
+      "problem_page": 101
+    },
+    {
+      "id": 43,
+      "question": "身体障害者補助犬法によって、公共施設及び公共交通機関だけでなく、すべての民間施設においても補助犬同伴の身体障害者の受け入れが義務づけられています。",
+      "correct_answer": "A",
+      "hint_page": "p85",
+      "hint_text": "<span class='highlight_red'>すべての<ruby>民間施設<rt>みんかんしせつ</rt></ruby></span>においても、<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れが<ruby>義務<rt>ぎむ</rt></ruby><ruby>付<rt>づ</rt></ruby>けられており、<ruby>拒否<rt>きょひ</rt></ruby>できなくなりました。",
+      "problem_page": 101
+    },
+    {
+      "id": 44,
+      "question": "身体障害者補助犬法の中では、国民は補助犬を連れている身体障害者に協力しなければならないと定められており、この法律はすべての国民が知っています。",
+      "correct_answer": "B",
+      "hint_page": "p85",
+      "hint_text": "「<span class='highlight_red'>まだこの<ruby>法律<rt>ほうりつ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>いため</span>」、<ruby>啓発<rt>けいはつ</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>であると<ruby>書<rt>か</rt></ruby>かれています。",
+      "problem_page": 101
+    },
+    {
+      "id": 45,
+      "question": "介助犬は、肢体不自由者の日常生活動作をサポートするように訓練された犬です。",
+      "correct_answer": "A",
+      "hint_page": "p86",
+      "hint_text": "<ruby>介助犬<rt>かいじょけん</rt></ruby>は、<span class='highlight_red'><ruby>肢体不自由者<rt>したいふじゆうしゃ</rt></ruby></span>の<ruby>動作<rt>どうさ</rt></ruby>をサポートします。",
+      "problem_page": 101
+    },
+    {
+      "id": 46,
+      "question": "聴導犬は、聴覚障害者の耳の代わりとなり、必要な音を教え、音源へ誘導します。",
+      "correct_answer": "A",
+      "hint_page": "p87",
+      "hint_text": "<ruby>聴導犬<rt>ちょうどうけん</rt></ruby>は、<span class='highlight_red'><ruby>音<rt>おと</rt></ruby>を<ruby>教<rt>おし</rt></ruby>え、<ruby>音源<rt>おんげん</rt></ruby>へ<ruby>誘導<rt>ゆうどう</rt></ruby></span>します。",
+      "problem_page": 101
+    },
+    {
+      "id": 47,
+      "question": "補助犬の表示は、ハーネスや胴着・ケープなどに付けていますが、周囲の人が見ても補助犬だとわからない配慮がされています。",
+      "correct_answer": "B",
+      "hint_page": "p87",
+      "hint_text": "<ruby>周囲<rt>しゅうい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>ても、<span class='highlight_red'>「すぐに<ruby>認定<rt>にんてい</rt></ruby>を<ruby>受<rt>う</rt></ruby>けている<ruby>補助犬<rt>ほじょけん</rt></ruby>であること」がわかる</span>ようになっています。",
+      "problem_page": 101
+    },
+    {
+      "id": 48,
+      "question": "補助犬と補助犬使用者に出会ったら、温かく見守り、困っているようなら声をかけ、必要なお手伝いをします。",
+      "correct_answer": "A",
+      "hint_page": "p88",
+      "hint_text": "<ruby>使用者<rt>しようしゃ</rt></ruby>が<ruby>困<rt>こま</rt></ruby>っているようなら、「<span class='highlight_red'><ruby>何<rt>なに</rt></ruby>かお<ruby>手伝<rt>てつだ</rt></ruby>いしましょうか？』と<ruby>声<rt>こえ</rt></ruby>をかけ</span>」、<ruby>必要<rt>ひつよう</rt></ruby>なお<ruby>手伝<rt>てつだ</rt></ruby>いをしてください。",
+      "problem_page": 101
+    },
+    {
+      "id": 49,
+      "question": "心のバリアフリーでは、バリアを感じている人のために自分に何が出来るかを考え、コミュニケーションをとってバリアを取り除くことを奨励します。",
+      "correct_answer": "A",
+      "hint_page": "p90",
+      "hint_text": "「<span class='highlight_red'>コミュニケーションをとってバリアを<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くこと</span>を<ruby>実践<rt>じっせん</rt></ruby>します」とあります。",
+      "problem_page": 101
+    },
+    {
+      "id": 50,
+      "question": "心のバリアフリーでは、無関心をやめ、相手の立場になり行動します。",
+      "correct_answer": "A",
+      "hint_page": "p90",
+      "hint_text": "「<span class='highlight_red'><ruby>無関心<rt>むかんしん</rt></ruby>をやめ、バリアを<ruby>感<rt>かん</rt></ruby>じている<ruby>人<rt>ひと</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>になって<ruby>考<rt>かんが</rt></ruby>え、<ruby>行動<rt>こうどう</rt></ruby></span>しましょう」とあります。",
+      "problem_page": 101
+    },
+    {
+      "id": 51,
+      "question": "ジュニア・ケアフィッターの学びは、高齢者への理解を深めることだけでなく、自ら課題を見つけ解決する「生きる力」の育成にもつながる。",
+      "correct_answer": "A",
+      "hint_page": "p4",
+      "hint_text": "「<ruby>共生力<rt>きょうせいりょく</rt></ruby>」や、<ruby>自<rt>みずか</rt></ruby>ら<ruby>課題<rt>かだい</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけ<ruby>主体的<rt>しゅたいてき</rt></ruby>に<ruby>解決<rt>かいけつ</rt></ruby>をはかる「<span class='highlight_red'><ruby>生<rt>い</rt></ruby>きる<ruby>力<rt>ちから</rt></ruby></span>」を<ruby>身<rt>み</rt></ruby>につけることに<ruby>役<rt>やく</rt></ruby>ちます。",
+      "problem_page": 98
+    },
+    {
+      "id": 52,
+      "question": "おもてなしの心（ホスピタリティ・マインド）とは、相手の言うことをすべて聞くことである。",
+      "correct_answer": "B",
+      "hint_page": "p19",
+      "hint_text": "<ruby>おもてなしの心<rt>こころ</rt></ruby>とは、「<span class='highlight_red'><ruby>心<rt>こころ</rt></ruby>から<ruby>相手<rt>あいて</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちになって<ruby>考<rt>かんが</rt></ruby>える</span>」ことであり、<ruby>単<rt>たん</rt></ruby>に<ruby>言<rt>い</rt></ruby>いなりになることではありません。",
+      "problem_page": 102
+    },
+    {
+      "id": 53,
+      "question": "尊敬語は、自分の動作をへりくだって表現するときに使う言葉遣いである。",
+      "correct_answer": "B",
+      "hint_page": "p25",
+      "hint_text": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>動作<rt>どうさ</rt></ruby>をへりくだるのは<span class='highlight_red'>「<ruby>謙譲語<rt>けんじょうご</rt></ruby>」</span>です。<ruby>尊敬語<rt>そんけいご</rt></ruby>は<ruby>相手<rt>あいて</rt></ruby>を<ruby>高<rt>たか</rt></ruby>めるときに<ruby>使<rt>つか</rt></ruby>います。",
+      "problem_page": 102
+    },
+    {
+      "id": 54,
+      "question": "メンタルブロックとは、何か新しい行動を起こそうとしたときに生じる、心理的な抵抗やためらいのことである。",
+      "correct_answer": "A",
+      "hint_page": "p21",
+      "hint_text": "「<ruby>心理的<rt>しんりてき</rt></ruby>な<ruby>抵抗<rt>ていこう</rt></ruby>やおそれのようなもの」を<span class='highlight_red'>メンタルブロック</span>と<ruby>言<rt>い</rt></ruby>うとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 55,
+      "question": "「ユニバーサルデザイン」は、障害者や高齢者だけを対象としたデザインのことである。",
+      "correct_answer": "B",
+      "hint_page": "p37",
+      "hint_text": "ユニバーサルデザインの<ruby>対象<rt>たいしょう</rt></ruby>は<span class='highlight_red'>「すべての<ruby>人<rt>ひと</rt></ruby>」</span>です。",
+      "problem_page": 102
+    },
+    {
+      "id": 56,
+      "question": "視覚障害者の手引きをする際、白杖を持っている側の腕をつかんで誘導するのが良い。",
+      "correct_answer": "B",
+      "hint_page": "p54",
+      "hint_text": "「<ruby>白杖<rt>はくじょう</rt></ruby>にはむやみにふれない」とあります。<span class='highlight_red'><ruby>白杖<rt>はくじょう</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていない<ruby>側<rt>がわ</rt></ruby></span>の<ruby>手<rt>て</rt></ruby>や<ruby>肩<rt>かた</rt></ruby>を<ruby>借<rt>か</rt></ruby>ります。",
+      "problem_page": 102
+    },
+    {
+      "id": 57,
+      "question": "聴覚障害者と話すときは、口元を見せないようにして話すのがマナーである。",
+      "correct_answer": "B",
+      "hint_page": "p60",
+      "hint_text": "「<ruby>口話<rt>こうわ</rt></ruby>」では<ruby>口<rt>くち</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>を<ruby>読<rt>よ</rt></ruby>み<ruby>取<rt>と</rt></ruby>るため、<span class='highlight_red'><ruby>口元<rt>くちもと</rt></ruby>が<ruby>見<rt>み</rt></ruby>えるように<ruby>正面<rt>しょうめん</rt></ruby>から</span><ruby>話<rt>はな</rt></ruby>します。",
+      "problem_page": 102
+    },
+    {
+      "id": 58,
+      "question": "車いすをたたむときは、シートの中心を引き上げるとたたみやすい。",
+      "correct_answer": "A",
+      "hint_page": "p68",
+      "hint_text": "<ruby>手順<rt>てじゅん</rt></ruby>に、「シートの<span class='highlight_red'><ruby>中心<rt>ちゅうしん</rt></ruby>をつかんで<ruby>引<rt>ひ</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げます</span>」とあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 59,
+      "question": "発達障害には、自閉症、アスペルガー症候群、注意欠陥多動性障害（AD/HD）などが含まれる。",
+      "correct_answer": "A",
+      "hint_page": "p76",
+      "hint_text": "これらの<ruby>障害<rt>しょうがい</rt></ruby>が<span class='highlight_red'><ruby>発達障害<rt>はったつしょうがい</rt></ruby></span>として<ruby>分類<rt>ぶんるい</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 60,
+      "question": "「障害の個人モデル」では、障害による困難を解決するのは社会の責務であると考える。",
+      "correct_answer": "B",
+      "hint_page": "p42",
+      "hint_text": "「<ruby>障害<rt>しょうがい</rt></ruby>の<ruby>個人<rt>こじん</rt></ruby>モデル」は<span class='highlight_red'><ruby>個人<rt>こじん</rt></ruby>の<ruby>責任<rt>せきにん</rt></ruby></span>と<ruby>考<rt>かんが</rt></ruby>えます。<ruby>社会<rt>しゃかい</rt></ruby>の<ruby>責務<rt>せきむ</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>えるのは「<ruby>社会<rt>しゃかい</rt></ruby>モデル」です。",
+      "problem_page": 102
+    },
+    {
+      "id": 61,
+      "question": "高齢者に話しかけるときは、早口でたくさんの情報を一度に伝えると良い。",
+      "correct_answer": "B",
+      "hint_page": "p81",
+      "hint_text": "<span class='highlight_red'>「ゆっくり、はっきりと」</span><ruby>話<rt>はな</rt></ruby>し、<ruby>内容<rt>ないよう</rt></ruby>は<span class='highlight_red'>「<ruby>簡潔<rt>かんけつ</rt></ruby>に」</span>まとめるのが<ruby>良<rt>よ</rt></ruby>いとされています。",
+      "problem_page": 102
+    },
+    {
+      "id": 62,
+      "question": "身体障害者補助犬法では、国民は補助犬使用者に協力するよう努めなければならないとされている。",
+      "correct_answer": "A",
+      "hint_page": "p85",
+      "hint_text": "「<ruby>国民<rt>こくみん</rt></ruby>は<ruby>補助犬<rt>ほじょけん</rt></ruby>を<ruby>連<rt>つ</rt></ruby>れている<ruby>身体障害者<rt>しんたいしょうがいしゃ</rt></ruby>に<span class='highlight_red'><ruby>協力<rt>きょうりょく</rt></ruby>しなければならない</span>」と<ruby>定<rt>さだ</rt></ruby>められているとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 63,
+      "question": "ピクトグラムとは、文字が読めない人でも意味がわかるように情報を図記号で表したものである。",
+      "correct_answer": "A",
+      "hint_page": "p38",
+      "hint_text": "ピクトグラムは<span class='highlight_red'><ruby>言葉<rt>ことば</rt></ruby>が<ruby>通<rt>つう</rt></ruby>じない<ruby>人<rt>ひと</rt></ruby>や<ruby>文字<rt>もじ</rt></ruby>が<ruby>読<rt>よ</rt></ruby>めない<ruby>人<rt>ひと</rt></ruby>でもわかりやすい</span><ruby>図記号<rt>ずきごう</rt></ruby>であると<ruby>説明<rt>せつめい</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 65,
+      "question": "車いすで急な坂道を下るときは、前向きで進むのが基本である。",
+      "correct_answer": "B",
+      "hint_page": "p71",
+      "hint_text": "<ruby>坂道<rt>さかみち</rt></ruby>を<ruby>下<rt>くだ</rt></ruby>るときは<span class='highlight_red'>「<ruby>後<rt>うし</rt></ruby>ろ<ruby>向<rt>む</rt></ruby>き」</span>で<ruby>操作<rt>そうさ</rt></ruby>するのが<ruby>基本<rt>きほん</rt></ruby>です。",
+      "problem_page": 102
+    },
+    {
+      "id": 66,
+      "question": "視覚障害者を手引きして椅子に座らせるときは、何も言わずに座らせて良い。",
+      "correct_answer": "B",
+      "hint_page": "p56",
+      "hint_text": "<ruby>座<rt>すわ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<span class='highlight_red'>「いすの<ruby>高<rt>たか</rt></ruby>さや<ruby>背<rt>せ</rt></ruby>もたれの<ruby>状況<rt>じょうきょう</rt></ruby>」などを<ruby>説明<rt>せつめい</rt></ruby></span>し、<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>ふ</rt></ruby>れてもらう<ruby>必要<rt>ひつよう</rt></ruby>があります。",
+      "problem_page": 102
+    },
+    {
+      "id": 67,
+      "question": "「すみません」や「ごめんなさい」は、クッション言葉として適切である。",
+      "correct_answer": "B",
+      "hint_page": "p27",
+      "hint_text": "<ruby>クッション言葉<rt>くっしょんことば</rt></ruby>の<ruby>例<rt>れい</rt></ruby>は「<ruby>失礼<rt>しつれい</rt></ruby>ですが」「<ruby>恐<rt>おそ</rt></ruby>れ<ruby>入<rt>い</rt></ruby>りますが」などです。<ruby>謝罪<rt>しゃざい</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>とは<ruby>異<rt>こと</rt></ruby>なります。",
+      "problem_page": 102
+    },
+    {
+      "id": 68,
+      "question": "サービス介助士ジュニアは、医療行為や専門的な介護を行う資格である。",
+      "correct_answer": "B",
+      "hint_page": "p3",
+      "hint_text": "<ruby>身体介護<rt>しんたいかいご</rt></ruby>は「<ruby>介護福祉士<rt>かいごふくしし</rt></ruby>」などが<ruby>行<rt>おこな</rt></ruby>います。ケアフィッターは<span class='highlight_red'>「おもてなしの<ruby>心<rt>こころ</rt></ruby>と<ruby>介助技術<rt>かいじょぎじゅつ</rt></ruby>」</span>で<ruby>手助<rt>てだす</rt></ruby>けをする<ruby>役割<rt>やくわり</rt></ruby>です。",
+      "problem_page": 102
+    },
+    {
+      "id": 69,
+      "question": "白杖には「情報収集」「安全確保」「視覚障害の標識」という3つの役割がある。",
+      "correct_answer": "A",
+      "hint_page": "p51",
+      "hint_text": "<ruby>白杖<rt>はくじょう</rt></ruby>の3つの<ruby>役割<rt>やくわり</rt></ruby>として<span class='highlight_red'>「<ruby>情報収集<rt>じょうほうしゅうしゅう</rt></ruby>」「<ruby>安全確保<rt>あんぜんかくほ</rt></ruby>」「<ruby>標識<rt>ひょうしき</rt></ruby>」</span>が<ruby>挙<rt>あ</rt></ruby>げられています。",
+      "problem_page": 102
+    },
+    {
+      "id": 70,
+      "question": "駅のホームにある点状ブロックは、「進む方向」を示している。",
+      "correct_answer": "B",
+      "hint_page": "p53",
+      "hint_text": "<ruby>点状<rt>てんじょう</rt></ruby>ブロックは<span class='highlight_red'>「<ruby>要注意<rt>ようちゅうい</rt></ruby>（<ruby>止<rt>と</rt></ruby>まれ）」</span>の<ruby>意味<rt>いみ</rt></ruby>です。<ruby>進<rt>すす</rt></ruby>む<ruby>方向<rt>ほうこう</rt></ruby>を<ruby>示<rt>しめ</rt></ruby>すのは「<ruby>線状<rt>せんじょう</rt></ruby>ブロック」です。",
+      "problem_page": 102
+    },
+    {
+      "id": 71,
+      "question": "「団塊の世代」とは、第二次世界大戦後の1947年〜1949年に生まれた世代のことである。",
+      "correct_answer": "A",
+      "hint_page": "p83",
+      "hint_text": "1947〜1949<ruby>年<rt>ねん</rt></ruby>のベビーブームに<ruby>生<rt>う</rt></ruby>まれた<ruby>人々<rt>ひとびと</rt></ruby>を<span class='highlight_red'>「<ruby>団塊<rt>だんかい</rt></ruby>の<ruby>世代<rt>せだい</rt></ruby>」</span>と<ruby>呼<rt>よ</rt></ruby>ぶと<ruby>記述<rt>きじゅつ</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 72,
+      "question": "「ハートプラスマーク」は、聴覚に障害があることを示すマークである。",
+      "correct_answer": "B",
+      "hint_page": "p96",
+      "hint_text": "ハートプラスマークは<span class='highlight_red'>「<ruby>内部障害<rt>ないぶしょうがい</rt></ruby>や<ruby>内部疾患<rt>ないぶしっかん</rt></ruby>」</span>を<ruby>表<rt>あらわ</rt></ruby>すマークです。<ruby>聴覚障害<rt>ちょうかくしょうがい</rt></ruby>は「<ruby>耳<rt>みみ</rt></ruby>マーク」です。",
+      "problem_page": 102
+    },
+    {
+      "id": 73,
+      "question": "車いすの「ティッピングレバー」は、段差を乗り越える際に前輪を持ち上げるために使う。",
+      "correct_answer": "A",
+      "hint_page": "p72",
+      "hint_text": "<ruby>段差<rt>だんさ</rt></ruby>を<ruby>昇<rt>のぼ</rt></ruby>る<ruby>際<rt>さい</rt></ruby>、<span class='highlight_red'>ティッピングレバーを<ruby>踏<rt>ふ</rt></ruby>んでキャスタ（<ruby>前輪<rt>ぜんりん</rt></ruby>）を<ruby>上<rt>あ</rt></ruby>げる</span>とあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 74,
+      "question": "「合理的配慮」とは、障害のある人からの申し出があった場合に、負担が重すぎない範囲で対応することである。",
+      "correct_answer": "A",
+      "hint_page": "p49",
+      "hint_text": "<span class='highlight_red'>「<ruby>負担<rt>ふたん</rt></ruby>になりすぎない<ruby>範囲<rt>はんい</rt></ruby>で...<ruby>必要<rt>ひつよう</rt></ruby>かつ<ruby>合理的<rt>ごうりてき</rt></ruby>な<ruby>対応<rt>たいおう</rt></ruby>をすること」</span>と<ruby>説明<rt>せつめい</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 75,
+      "question": "高齢者は、高い音が聞き取りやすくなる傾向がある。",
+      "correct_answer": "B",
+      "hint_page": "p79",
+      "hint_text": "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>は<span class='highlight_red'>「<ruby>低音<rt>ていおん</rt></ruby>より<ruby>高音<rt>こうおん</rt></ruby>が<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>りにくい」</span><ruby>傾向<rt>けいこう</rt></ruby>があります。",
+      "problem_page": 102
+    },
+    {
+      "id": 76,
+      "question": "「空書」とは、空中に文字を書いて伝えるコミュニケーション方法である。",
+      "correct_answer": "A",
+      "hint_page": "p60",
+      "hint_text": "<ruby>筆記具<rt>ひっきぐ</rt></ruby>がないときに<span class='highlight_red'><ruby>空間<rt>くうかん</rt></ruby>や<ruby>手<rt>て</rt></ruby>のひらに<ruby>文字<rt>もじ</rt></ruby>を<ruby>書<rt>か</rt></ruby>く</span><ruby>方法<rt>ほうほう</rt></ruby>を「<ruby>空書<rt>くうしょ</rt></ruby>」と<ruby>言<rt>い</rt></ruby>うとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 77,
+      "question": "知的障害のある人と接するときは、子供に話しかけるようにゆっくり話すのが良い。",
+      "correct_answer": "B",
+      "hint_page": "p76",
+      "hint_text": "<span class='highlight_red'>「<ruby>誰<rt>だれ</rt></ruby>もがそうであること（<ruby>対等<rt>たいとう</rt></ruby>な<ruby>人間<rt>にんげん</rt></ruby>として）」</span><ruby>接<rt>せっ</rt></ruby>し、わかりやすい<ruby>言葉<rt>ことば</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>することが<ruby>大切<rt>たいせつ</rt></ruby>とされています。<ruby>子供<rt>こども</rt></ruby><ruby>扱<rt>あつか</rt></ruby>いをするわけではありません。",
+      "problem_page": 102
+    },
+    {
+      "id": 78,
+      "question": "「要約筆記」とは、話の内容をすべて一言一句漏らさずに書き取ることである。",
+      "correct_answer": "B",
+      "hint_page": "p63",
+      "hint_text": "すべてを<ruby>文字<rt>もじ</rt></ruby>にすることはできないため、<span class='highlight_red'>「<ruby>内容<rt>ないよう</rt></ruby>を<ruby>要約<rt>ようやく</rt></ruby>して」</span><ruby>伝<rt>つた</rt></ruby>えるとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 79,
+      "question": "車いすでの介助中、利用者が不安を感じないよう、操作する前に声をかけることが重要である。",
+      "correct_answer": "A",
+      "hint_page": "p69",
+      "hint_text": "ポイント③「<ruby>声<rt>こえ</rt></ruby>かけ」にて、<span class='highlight_red'>「こまめに<ruby>操作内容<rt>そうさないよう</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えましょう」</span>とされています。",
+      "problem_page": 102
+    },
+    {
+      "id": 80,
+      "question": "「ヘルプマーク」は、援助や配慮が必要なことが外見から分からない人が身につけるマークである。",
+      "correct_answer": "A",
+      "hint_page": "p96",
+      "hint_text": "<span class='highlight_red'>「<ruby>外見<rt>がいけん</rt></ruby>からはわからない<ruby>方々<rt>かたがた</rt></ruby>」</span>が<ruby>援助<rt>えんじょ</rt></ruby>を<ruby>得<rt>え</rt></ruby>やすくするためのマークと<ruby>説明<rt>せつめい</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 81,
+      "question": "車いすで段差を降りるときは、前向きのまま勢いよく降りるのが良い。",
+      "correct_answer": "B",
+      "hint_page": "p72",
+      "hint_text": "<ruby>段差<rt>だんさ</rt></ruby>を<ruby>降<rt>お</rt></ruby>りるときは<span class='highlight_red'>「<ruby>後<rt>うし</rt></ruby>ろ<ruby>向<rt>む</rt></ruby>き」</span>で、ゆっくりと<ruby>静<rt>しず</rt></ruby>かに<ruby>降<rt>お</rt></ruby>りる<ruby>必要<rt>ひつよう</rt></ruby>があります。",
+      "problem_page": 102
+    },
+    {
+      "id": 82,
+      "question": "「事物のバリア」とは、階段や狭い通路など、物理的な環境による障壁のことである。",
+      "correct_answer": "A",
+      "hint_page": "p43",
+      "hint_text": "<ruby>施設<rt>しせつ</rt></ruby>や<ruby>設備<rt>せつび</rt></ruby>などの<span class='highlight_red'><ruby>物理的<rt>ぶつりてき</rt></ruby>な<ruby>障壁<rt>しょうへき</rt></ruby>を「<ruby>事物<rt>じぶつ</rt></ruby>のバリア」</span>と<ruby>呼<rt>よ</rt></ruby>ぶとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 83,
+      "question": "高齢者は口の渇きを感じにくくなるため、脱水症状に注意が必要である。",
+      "correct_answer": "A",
+      "hint_page": "p79",
+      "hint_text": "<span class='highlight_red'>だ<ruby>液<rt>えき</rt></ruby>が<ruby>減少<rt>げんしょう</rt></ruby>する</span><ruby>等<rt>とう</rt></ruby>の<ruby>記述<rt>きじゅつ</rt></ruby>があり、<ruby>一般的<rt>いっぱんてき</rt></ruby>に<ruby>感覚機能<rt>かんかくきのう</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>により<ruby>渇<rt>かわ</rt></ruby>きに<ruby>気<rt>き</rt></ruby>づきにくい<ruby>傾向<rt>けいこう</rt></ruby>があります。",
+      "problem_page": 102
+    },
+    {
+      "id": 84,
+      "question": "「ノーマライゼーション」とは、障害者を特別扱いして隔離することである。",
+      "correct_answer": "B",
+      "hint_page": "p35",
+      "hint_text": "ノーマライゼーションは<span class='highlight_red'>「<ruby>障害者<rt>しょうがいしゃ</rt></ruby>と<ruby>共<rt>とも</rt></ruby>に<ruby>生<rt>い</rt></ruby>きる」</span>ことであり、<ruby>隔離<rt>かくり</rt></ruby>とは<ruby>真逆<rt>まぎゃく</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>です。",
+      "problem_page": 102
+    },
+    {
+      "id": 85,
+      "question": "視覚障害者を案内するとき、「あそこ」「こっち」といった指示語を使うとわかりやすい。",
+      "correct_answer": "B",
+      "hint_page": "p55",
+      "hint_text": "「あそこ・こっち」などは<ruby>理解<rt>りかい</rt></ruby>しにくいので<ruby>控<rt>ひか</rt></ruby>え、<span class='highlight_red'>「<ruby>右<rt>みぎ</rt></ruby>・<ruby>左<rt>ひだり</rt></ruby>・<ruby>何<rt>なん</rt></ruby>m」</span>など<ruby>具体的<rt>ぐたいてき</rt></ruby>に<ruby>伝<rt>つた</rt></ruby>えるとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 86,
+      "question": "聴覚障害者と話すときは、表情やジェスチャーを交えると伝わりやすい。",
+      "correct_answer": "A",
+      "hint_page": "p63",
+      "hint_text": "<span class='highlight_red'>「<ruby>身振<rt>みぶ</rt></ruby>り・<ruby>手振<rt>てぶ</rt></ruby>り（ジェスチャー）」</span>や<ruby>表情<rt>ひょうじょう</rt></ruby>も<ruby>効果的<rt>こうかてき</rt></ruby>な<ruby>伝達手段<rt>でんたつしゅだん</rt></ruby>であるとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 87,
+      "question": "「慣行のバリア」とは、点字や手話通訳がないなど、慣習によって情報が得られない障壁のことである。",
+      "correct_answer": "A",
+      "hint_page": "p43",
+      "hint_text": "<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>伝<rt>つた</rt></ruby>え<ruby>方<rt>かた</rt></ruby>が<ruby>不十分<rt>ふじゅうぶん</rt></ruby>なため<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>が<ruby>得<rt>え</rt></ruby>られないことを<span class='highlight_red'>「<ruby>慣行<rt>かんこう</rt></ruby>の<ruby>障壁<rt>しょうへき</rt></ruby>」</span>と<ruby>定義<rt>ていぎ</rt></ruby>しています。",
+      "problem_page": 102
+    },
+    {
+      "id": 88,
+      "question": "車いすのタイヤ（駆動輪）には、ブレーキをかける機能はついていない。",
+      "correct_answer": "B",
+      "hint_page": "p68",
+      "hint_text": "<span class='highlight_red'>「<ruby>駆動輪<rt>くどうりん</rt></ruby>を<ruby>止<rt>と</rt></ruby>めて、<ruby>車<rt>くるま</rt></ruby>いすが<ruby>動<rt>うご</rt></ruby>かないようにする<ruby>装置<rt>そうち</rt></ruby>」</span>としてブレーキがあると<ruby>説明<rt>せつめい</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 89,
+      "question": "「合計特殊出生率」の計算対象となる女性の年齢は、15歳から49歳である。",
+      "correct_answer": "A",
+      "hint_page": "p84",
+      "hint_text": "<span class='highlight_red'>「15<ruby>歳<rt>さい</rt></ruby>〜49<ruby>歳<rt>さい</rt></ruby>までに<ruby>産<rt>う</rt></ruby>む<ruby>子<rt>こ</rt></ruby>どもの<ruby>数<rt>かず</rt></ruby>の<ruby>推計値<rt>すいけいち</rt></ruby>」</span>と<ruby>定義<rt>ていぎ</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 90,
+      "question": "「制度のバリア」とは、入学試験や就職試験などで障害を理由に制限を受けることなどを指す。",
+      "correct_answer": "A",
+      "hint_page": "p43",
+      "hint_text": "ルールや<ruby>条件<rt>じょうけん</rt></ruby>による<ruby>障壁<rt>しょうへき</rt></ruby>（<ruby>試験問題<rt>しけんもんだい</rt></ruby>の<ruby>形式<rt>けいしき</rt></ruby>や<ruby>同伴者要求<rt>どうはんしゃようきゅう</rt></ruby>など）を<span class='highlight_red'>「<ruby>制度<rt>せいど</rt></ruby>の<ruby>障壁<rt>しょうへき</rt></ruby>」</span>と<ruby>呼<rt>よ</rt></ruby>ぶとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 91,
+      "question": "高齢者と話すときは、相手のペースに合わせず、こちらの言いたいことを早めに伝えるべきである。",
+      "correct_answer": "B",
+      "hint_page": "p81",
+      "hint_text": "<ruby>一方的<rt>いっぽうてき</rt></ruby>ではなく<span class='highlight_red'>「<ruby>相手<rt>あいて</rt></ruby>の<ruby>反応<rt>はんのう</rt></ruby>を<ruby>確<rt>たし</rt></ruby>かめながら」</span><ruby>話<rt>はな</rt></ruby>すことが<ruby>大切<rt>たいせつ</rt></ruby>とあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 92,
+      "question": "「盲導犬」は、利用者の指示がなくても自動的に目的地まで連れて行ってくれる。",
+      "correct_answer": "B",
+      "hint_page": "p86",
+      "hint_text": "「<ruby>盲導犬<rt>もうどうけん</rt></ruby>が<ruby>道案内<rt>みちあんない</rt></ruby>をしているわけではなく、<span class='highlight_red'><ruby>使用者自身<rt>しようしゃじしん</rt></ruby>が...<ruby>指示<rt>しじ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し</span>」とあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 93,
+      "question": "「身体障害者標識（クローバーマーク）」は、肢体不自由者が運転する車に表示するものである。",
+      "correct_answer": "A",
+      "hint_page": "p95",
+      "hint_text": "<ruby>肢体不自由<rt>したいふじゆう</rt></ruby>がある<ruby>人<rt>ひと</rt></ruby>が<ruby>運転<rt>うんてん</rt></ruby>する<ruby>車両<rt>しゃりょう</rt></ruby>に<ruby>表示<rt>ひょうじ</rt></ruby>する<span class='highlight_red'><ruby>身体障害者標識<rt>しんたいしょうがいしゃひょうしき</rt></ruby></span>の<ruby>説明<rt>せつめい</rt></ruby>があります。",
+      "problem_page": 102
+    },
+    {
+      "id": 94,
+      "question": "車いすを広げるときは、シートの真ん中を上から強く押す。",
+      "correct_answer": "A",
+      "hint_page": "p67",
+      "hint_text": "「シートに<ruby>両手<rt>りょうて</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げて<ruby>置<rt>お</rt></ruby>いて、...<span class='highlight_red'><ruby>上<rt>うえ</rt></ruby>から<ruby>力<rt>ちから</rt></ruby>を<ruby>入<rt>い</rt></ruby>れます</span>」と<ruby>手順<rt>てじゅん</rt></ruby>が<ruby>示<rt>しめ</rt></ruby>されています。",
+      "problem_page": 102
+    },
+    {
+      "id": 95,
+      "question": "「ホスピタリティ・マインド」は、自分自身の心のあり方よりも、相手への技術提供を優先する考え方である。",
+      "correct_answer": "B",
+      "hint_page": "p21",
+      "hint_text": "<span class='highlight_red'>「まず<ruby>自分自身<rt>じぶんじしん</rt></ruby>の<ruby>心<rt>こころ</rt></ruby>のあり<ruby>方<rt>かた</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>」</span>と<ruby>書<rt>か</rt></ruby>かれています。",
+      "problem_page": 102
+    },
+    {
+      "id": 96,
+      "question": "「マタニティマーク」は、妊娠初期の妊婦も対象としている。",
+      "correct_answer": "A",
+      "hint_page": "p96",
+      "hint_text": "<ruby>外見<rt>がいけん</rt></ruby>からはわかりにくい<span class='highlight_red'>「<ruby>妊娠初期<rt>にんしんしょき</rt></ruby>」</span>の<ruby>方<rt>かた</rt></ruby>も<ruby>対象<rt>たいしょう</rt></ruby>であると<ruby>書<rt>か</rt></ruby>かれています。",
+      "problem_page": 102
+    },
+    {
+      "id": 97,
+      "question": "聴覚障害者と筆談するときは、長い文章で丁寧に書くのが最も良い。",
+      "correct_answer": "B",
+      "hint_page": "p60",
+      "hint_text": "<ruby>筆談<rt>ひつだん</rt></ruby>は<span class='highlight_red'>「<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>だけを<ruby>簡潔<rt>かんけつ</rt></ruby>に」</span><ruby>書<rt>か</rt></ruby>くのが<ruby>良<rt>よ</rt></ruby>いとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 98,
+      "question": "視覚障害者を狭い場所で誘導するときは、手引き者が後ろに回って押してあげると良い。",
+      "correct_answer": "B",
+      "hint_page": "p54",
+      "hint_text": "<span class='highlight_red'>「<ruby>身体<rt>からだ</rt></ruby>をひっぱったり、<ruby>押<rt>お</rt></ruby>したりしない」</span>とあり、<ruby>手引<rt>てび</rt></ruby>き<ruby>者<rt>しゃ</rt></ruby>が<ruby>前<rt>まえ</rt></ruby>に<ruby>立<rt>た</rt></ruby>つのが<ruby>基本<rt>きほん</rt></ruby>です。",
+      "problem_page": 102
+    },
+    {
+      "id": 99,
+      "question": "「心のバリアフリー」とは、制度や設備だけでなく、一人ひとりの意識や行動によって障壁を取り除くことである。",
+      "correct_answer": "A",
+      "hint_page": "p89",
+      "hint_text": "<span class='highlight_red'>「<ruby>一人<rt>ひとり</rt></ruby>ひとりが<ruby>多様<rt>たよう</rt></ruby>な<ruby>人<rt>ひと</rt></ruby>のことを<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れ、<ruby>思<rt>おも</rt></ruby>いやる」</span>ことが<ruby>心<rt>こころ</rt></ruby>のバリアフリーだとあります。",
+      "problem_page": 102
+    },
+    {
+      "id": 100,
+      "question": "サービス介助士ジュニアの資格は、一度取得すれば更新の必要はなく一生有効である。",
+      "correct_answer": "A",
+      "hint_page": "p4",
+      "hint_text": "<ruby>資格取得<rt>しかくしゅとく</rt></ruby>の<ruby>流<rt>なが</rt></ruby>れに、<ruby>更新<rt>こうしん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>という<ruby>記述<rt>きじゅつ</rt></ruby>はありません。",
+      "problem_page": 102
+    }
+  ]
+}

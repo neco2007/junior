@@ -1,0 +1,404 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "question": "ジュニア・ケアフィッターの知識や技術を学ぶことは、共生力や生きる力を身につけることに役立つ。",
+      "correct_answer": "A",
+      "hint_page": "p4",
+      "hint_text": "これらの知識や技術は、社会において、特に人と関わる仕事において役立つと同時に、あなたがこれからの人生を生きる上で、社会の中で人々と共に生きる<span class='highlight_red'>「共生力」</span>や、自ら課題を見つけ、主体的に問題の解決をはかる<span class='highlight_red'>「生きる力」を身につける</span>ことに役立つでしょう。",
+      "problem_page": 98
+    },
+    {
+      "id": 2,
+      "question": "「ケアフィット」とは、英語のCare（相手に注意を払い、気づかう）とFit（合わせる）を1つにした言葉である。",
+      "correct_answer": "A",
+      "hint_page": "p5",
+      "hint_text": "「ケアフィット」とは、英語の<span class='highlight_red'>「Care」（相手に注意を払い、気づかう）と「Fit」（合わせる）を1つにした言葉</span>です。ケアフィットは、「一人ひとりに合わせた対応をする」という考え方を基本としています。",
+      "problem_page": 98
+    },
+    {
+      "id": 3,
+      "question": "死を考えることは、一日一日を大切に「いかに生きるか」を考えることである。",
+      "correct_answer": "A",
+      "hint_page": "p17",
+      "hint_text": "**死を考えることは、<span class='highlight_red'>一日一日を大切にして「いかに生きるか」を考えること</span>**なのです。",
+      "problem_page": 98
+    },
+    {
+      "id": 4,
+      "question": "自分がホスピタリティ・マインドを発揮しようとして行動しても、相手がそれを素直に受け入れようとしてくれず、心理的な抵抗があることを、「メンタルブロック」と言う。",
+      "correct_answer": "A",
+      "hint_page": "p21",
+      "hint_text": "なかなか実行できない理由があったり心理的な抵抗があったりします。それを<span class='highlight_red'>**「メンタルブロック」**と言う</span>。メンタルブロックには以下のようなものがあります。 [例：恥ずかしい、失敗したらどうしよう など]",
+      "problem_page": 98
+    },
+    {
+      "id": 5,
+      "question": "お客さまの事柄に対して敬意を表すときには尊敬語を使うと良い。",
+      "correct_answer": "A",
+      "hint_page": "p25",
+      "hint_text": " 1 正しい日本語を身につけよう\n（1）<span class='highlight_red'>尊敬語</span>\n<span class='highlight_yellow'>**自分より目上の人やお客様の事柄（動作・状態・所有）に対して敬意を表すとき**に使います。</span>",
+      "problem_page": 98
+    },
+    {
+      "id": 6,
+      "question": "クッション言葉を知っておくと、コミュニケーションを良くする方法として役に立つ。",
+      "correct_answer": "A",
+      "hint_page": "p27",
+      "hint_text": " (2) クッション言葉\nあいさつがコミュニケーションや人間関係を良くするものだと、さらに<span class='highlight_red'>コミュニケーションを良くする方法として身につけてほしいのが**クッション言葉**です。</span>",
+      "problem_page": 98
+    },
+    {
+      "id": 7,
+      "question": "障害者手帳は、障害のある人がさまざまな福祉サービスや支援を受けるうえで必要になるものである。",
+      "correct_answer": "A",
+      "hint_page": "p34",
+      "hint_text": "障害者手帳は、**身体障害者手帳、療育手帳、精神障害者保健福祉手帳の3種類**を総称した一般的な呼称です。いずれの手帳をお持ちの場合でも、**障害者総合支援法**の対象となり、<span class='highlight_red'>さまざまな支援策が講じられています。</span>",
+      "problem_page": 98
+    },
+    {
+      "id": 8,
+      "question": "誰もが暮らしやすい社会を実現するための考え方には、「ノーマライゼーション」や「バリアフリーゼーション」がある。",
+      "correct_answer": "B",
+      "hint_page": "p37",
+      "hint_text": "誰もが暮らしやすい社会を実現するための考え方は、「ノーマライゼーション」や<span class='highlight_red'>**「バリアフリー」**</span>、<span class='highlight_red'>**「ユニバーサルデザイン」**</span>などがあります。（「バリアフリーゼーション」という言葉は教科書に記述がないため）",
+      "problem_page": 98
+    },
+    {
+      "id": 9,
+      "question": "ユニバーサルデザインという考え方を最初に提唱したのは、アメリカの建築家のロナルド・メイス氏である。",
+      "correct_answer": "A",
+      "hint_page": "p37",
+      "hint_text": "ユニバーサルデザインとは、最初から障害をつくらないこと。この考え方は1980年代、アメリカの建築家の<span class='highlight_red'>**ロナルド・メイス氏**が最初に提唱しました。</span>",
+      "problem_page": 98
+    },
+    {
+      "id": 10,
+      "question": "「バリアフリー」とは、日常生活で何か不都合なことがあっても、それを自由の乗り越えていける力のことである。",
+      "correct_answer": "B",
+      "hint_page": "p37",
+      "hint_text": " (2) ユニバーサルデザインとバリアフリーはどう違うの？\nバリアフリーの目的は、<span class='highlight_red'>**バリア（障害）を取り除く**</span>ことです。これは、**バリアを乗り越える力**ではなく、**バリアそのものを社会の責任でなくす**考え方に関連します。",
+      "problem_page": 98
+    },
+    {
+      "id": 11,
+      "question": "「ピクトグラム」とは、人口の分布状態を表した図のことである。",
+      "correct_answer": "B",
+      "hint_page": "p38",
+      "hint_text": "ピクトグラム、スライドドア\n<span class='highlight_red'>言葉が通じない外国人や文字が読めない子どもでも案内がわかりやすく、大きくて見やすい文字表示になっています。</span>（人口の分布状態を示すのはグラフなど）",
+      "problem_page": 98
+    },
+    {
+      "id": 12,
+      "question": "目が見えないから信号機の合図がわからないのは、その人に**見えないという障害がある**ので**本人の責任**だ、という考え方を**障害の社会モデル**と言う。",
+      "correct_answer": "B",
+      "hint_page": "p42",
+      "hint_text": "「障害の社会モデル」\n「信号がわからないのは<span class='highlight_yellow'>信号は視覚だけで判断するものだからである</span>」など、**多数派によりつくられる社会のつくりや仕組みが原因**ととらえる考え方。\n\n「障害の個人モデル」\n「信号がわからないのは目が見えないからである」など、<span class='highlight_red'>その困難を克服するのはその**個人（と家族）の責任**だ</span>と考える考え方。これを「障害の個人モデル」といいます。",
+      "problem_page": 98
+    },
+    {
+      "id": 13,
+      "question": "さまざまな人が生活する上で、バリアとなるものの中で、「障害者はかわいそうだ」という考え方は、**思い込みとか無知という観念のバリア**である。",
+      "correct_answer": "A",
+      "hint_page": "p43",
+      "hint_text": "社会的障壁とその具体例\n| 内容 | 具体例 |\n| :--- | :--- |\n| 観念の障壁（バリア）：無知、偏見、無関心など | **\"障害者はかわいそうだ\"**など |\n（P44にも「障害者はかわいそうという気持ち」が観念のバリアとして記載）",
+      "problem_page": 99
+    },
+    {
+      "id": 14,
+      "question": "障害者差別解消法では不当な差別的取り扱いを禁止しています。",
+      "correct_answer": "A",
+      "hint_page": "p48",
+      "hint_text": "法律のポイント：「<span class='highlight_red'>**不当な差別の取り扱い**</span>」と「合理的配慮の不提供」が禁止されています",
+      "problem_page": 99
+    },
+    {
+      "id": 15,
+      "question": "視覚障害者のうち、60%以上の人は全盲ではなく、弱視である。",
+      "correct_answer": "A",
+      "hint_page": "p51",
+      "hint_text": "視覚障害と言うと、「盲」の印象が強いですが、<span class='highlight_red'>**60%以上は弱視**</span>の人です。",
+      "problem_page": 99
+    },
+    {
+      "id": 16,
+      "question": "中途失明の原因には、糖尿病性網膜症によるものがある。",
+      "correct_answer": "A",
+      "hint_page": "p51",
+      "hint_text": "視覚障害者の約80%が中途失明であり、その原因は緑内障、<span class='highlight_red'>**糖尿病性網膜症**</span>、網膜色素変性症、黄斑変性症などがあります。",
+      "problem_page": 99
+    },
+    {
+      "id": 17,
+      "question": "点字を使う人は、視覚障害者のうちの約50%であると報告されている。",
+      "correct_answer": "B",
+      "hint_page": "p51",
+      "hint_text": "視覚障害者のうち、**点字の読み書きができる**と答えた人は、<span class='highlight_red'>**約15.6%**</span>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 18,
+      "question": "白杖には、「情報収集」、「安全確保」、「視覚障害という標識」の3つの役割がある。",
+      "correct_answer": "A",
+      "hint_page": "p51, p52",
+      "hint_text": " (2) 白杖の3つの役割\n* ① 情報収集（アンテナ機能）\n* ② 安全確保（バンパー機能）\n* ③ <span class='highlight_red'>視覚障害という標識（スピーカー機能）</span>",
+      "problem_page": 99
+    },
+    {
+      "id": 19,
+      "question": "視覚障害者誘導用ブロックには、線状ブロックと点状ブロックの2種類がある。",
+      "correct_answer": "A",
+      "hint_page": "p53",
+      "hint_text": "視覚障害者誘導用ブロックには、<span class='highlight_red'>**線状ブロック**と**点状ブロック**の2種類</span>があります。",
+      "problem_page": 99
+    },
+    {
+      "id": 20,
+      "question": "視覚障害者の手引きの際に注意することの1つは、**声をかけてから相手の身体にふれる**ことである。",
+      "correct_answer": "A",
+      "hint_page": "p53, p54",
+      "hint_text": " (1) 手引きの際に注意すること\n① 声をかける前に身体にふれない\n急に身体にふれると誰でも驚いてしまいます。<span class='highlight_red'>**なるべく正面から声をかけて、視覚障害者の身体にふれて**</span>ください。",
+      "problem_page": 99
+    },
+    {
+      "id": 21,
+      "question": "視覚障害者を手引きする人は、障害者の**半歩または一歩後ろ**に位置することが原則である。",
+      "correct_answer": "B",
+      "hint_page": "p55",
+      "hint_text": " (2) 手引きの基本姿勢\n③ <span class='highlight_red'>**手引き者は視覚障害者の半歩または一歩前に位置**</span>します。",
+      "problem_page": 99
+    },
+    {
+      "id": 22,
+      "question": "視覚障害者を手引きして右折・左折するときは、**いったん止まって45度に曲がる**ようにする。",
+      "correct_answer": "B",
+      "hint_page": "p55",
+      "hint_text": "＜その他のポイント＞\n**右折・左折**のときは<span class='highlight_red'>**いったん止まって直角に曲がるのが基本**</span>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 23,
+      "question": "視覚障害者を手引きして階段を上ったり下りたりするときは、**階段の手前でいったん止まり、「上り」「下り」の区別を伝える**ことが大切である。",
+      "correct_answer": "A",
+      "hint_page": "p55",
+      "hint_text": " (3) 場面ごとの介助方法 ① 階段\n1. 階段に対して正面に立ち、<span class='highlight_red'>**手前でいったん止まります。**</span>\n2. <span class='highlight_red'>**「上り（下り）の階段です」と伝えます。**</span>",
+      "problem_page": 99
+    },
+    {
+      "id": 24,
+      "question": "視覚障害者の階段の上り下りを誘導するときは、手引き者が1段あとを歩くのが普通である。",
+      "correct_answer": "B",
+      "hint_page": "p55",
+      "hint_text": " (3) 場面ごとの介助方法 ① 階段\n5. 「上り（下り）ます」と言い、<span class='highlight_red'>**手引き者が1段先を歩きます。**</span>",
+      "problem_page": 99
+    },
+    {
+      "id": 25,
+      "question": "視覚障害者を手引きして狭い通路を通るときは、**縦一列**になり、**手引き者はつかんでもらっている腕を背中に回して誘導**する。",
+      "correct_answer": "A",
+      "hint_page": "p56",
+      "hint_text": "② 狭い通路\n2. **「狭いので縦一列になります」**と伝えます。\n3. <span class='highlight_red'>**手引き者は、つかんでもらっている腕を背中に回します。**</span>視覚障害者はその後ろに入ります。",
+      "problem_page": 99
+    },
+    {
+      "id": 26,
+      "question": "視覚障害者に対し、いすに座る案内を行うときは、最初にいすの種類（形や特徴など）を伝えるようにする。",
+      "correct_answer": "B",
+      "hint_page": "p56",
+      "hint_text": "③ いすに座る\n2. 視覚障害者がいすに座る前に、<span class='highlight_red'>**いすの高さや、背もたれの状況、テーブルとの位置関係を具体的に説明**</span>します。",
+      "problem_page": 99
+    },
+    {
+      "id": 27,
+      "question": "ほとんどの聴覚障害者は、手話を使うことができる。",
+      "correct_answer": "B",
+      "hint_page": "p58",
+      "hint_text": "聴覚障害者は、皆、<span class='highlight_yellow'>**手話ができると思われがち**</span>ですが、**実際に手話や手話通訳を使う人**は<span class='highlight_red'>**約18.9%**</span>と報告されています。",
+      "problem_page": 99
+    },
+    {
+      "id": 28,
+      "question": "聴覚障害者とコミュニケーションをとる場合は、**常に2種類以上の方法**を組み合わせて使うと効果的である。",
+      "correct_answer": "A",
+      "hint_page": "p60",
+      "hint_text": "聴覚障害者とコミュニケーションをとる場合は、<span class='highlight_red'>**常に2種類以上の方法を組み合わせて使うと効果的**</span>です。",
+      "problem_page": 99
+    },
+    {
+      "id": 29,
+      "question": "会議や講演などで、聴覚障害者のために筆記者が内容を要約し、手書きやパソコンなどで知らせる方法を「要約筆記」と言う。",
+      "correct_answer": "A",
+      "hint_page": "p63",
+      "hint_text": " (7) 要約筆記\n話の内容をその場で**文字**にして伝えますが、話のスピードによりすべてを文字にするこはできないため、<span class='highlight_red'>**話の内容を要約して入力する方法**があります。</span>",
+      "problem_page": 100
+    },
+    {
+      "id": 30,
+      "question": "車いすには、自操兼介助用車いす・介助用車いす・電動車いすなどの種類がある。",
+      "correct_answer": "A",
+      "hint_page": "p66",
+      "hint_text": " 1 車いすの種類\n* <span class='highlight_red'>**自操兼介助用車いす**</span>\n* <span class='highlight_red'>**介助用車いす**</span>\n* <span class='highlight_red'>**電動車いす**</span>\n* **ハンドル型**",
+      "problem_page": 100
+    },
+    {
+      "id": 31,
+      "question": "車いすのブレーキをかけたり外したりするときは、乗っている相手に振動が強く伝わらないように丁寧な扱う。",
+      "correct_answer": "A",
+      "hint_page": "p69",
+      "hint_text": "ブレーキをかける（外す）場合は、後方から片方ずつかけ（外します）。\n外す場合に「パターン！」と勢いよく扱うと相手に振動が伝わりますので、<span class='highlight_red'>**静かに**行います。</span>",
+      "problem_page": 100
+    },
+    {
+      "id": 32,
+      "question": "介助者が車いすのブレーキを操作するときは、片方の手は必ずグリップをつかむようにする。",
+      "correct_answer": "A",
+      "hint_page": "p69",
+      "hint_text": "ブレーキレバーを持っていないほうの手は<span class='highlight_red'>**必ずグリップをつかみ**</span>ます。",
+      "problem_page": 100
+    },
+    {
+      "id": 33,
+      "question": "介助者が車いすを操作するときは、乗っている相手に操作の内容をこまかく伝える必要はない。",
+      "correct_answer": "B",
+      "hint_page": "p69",
+      "hint_text": " (3) 声かけ\n**安心して乗っていただく**ためにも<span class='highlight_red'>**こまめに操作内容を伝え**</span>ましょう。",
+      "problem_page": 100
+    },
+    {
+      "id": 34,
+      "question": "坂道で車いすを介助者が操作するときは、上り坂は前向き、下り坂は後ろ向きで操作する。",
+      "correct_answer": "A",
+      "hint_page": "p71",
+      "hint_text": " (1) 坂道での操作方法\n<span class='highlight_red'>**上り坂は前向き、下り坂は後ろ向き**で操作します。</span>",
+      "problem_page": 100
+    },
+    {
+      "id": 35,
+      "question": "段差のある場所で介助者が車いすを操作するときは、ティッピングレバーを使うことが大切である。",
+      "correct_answer": "A",
+      "hint_page": "p72",
+      "hint_text": " (2) 段差での操作方法 ① 段差の昇り方\n3. 段差にキャスタを静かに付けたら、<span class='highlight_red'>**ティッピングレバーに足**を置いて**前に踏み込む**</span>と同時に、グリップを自分の方に引きます。",
+      "problem_page": 100
+    },
+    {
+      "id": 36,
+      "question": "狭い道で車いすを操作するときは、車いすに座っている人の手をアームレストの外側に置いてもらうと良い。",
+      "correct_answer": "B",
+      "hint_page": "p73",
+      "hint_text": " (3) 狭い道での操作方法\n* 車いすの幅プラス数cmあれば狭い道でも通り抜けることができます。その場合は、アームレストから腕が出ていると壁などにぶつかる恐れがあります。<span class='highlight_red'>**アームレストの内側に手**を入れてもらいましょう。</span>",
+      "problem_page": 100
+    },
+    {
+      "id": 37,
+      "question": "車いすで狭い通路にアプローチするときは、曲がろうとする通路の中心と、駆動輪の車輪が重なる位置で直角に曲がるようにすると良い。",
+      "correct_answer": "A",
+      "hint_page": "p73",
+      "hint_text": " (6) 狭いスペースでの曲がり方の操作方法\n**曲がるろうそくなどの通路の中心を頭の中でイメージし、<span class='highlight_red'>駆動輪の車輪がその中心と重なる位置で直角に曲がる</span>ようにすると良い。**",
+      "problem_page": 100
+    },
+    {
+      "id": 38,
+      "question": "知的障害、発達障害、精神障害は見た目では障害がわかりにくく、周りの人からも理解されにくい。",
+      "correct_answer": "A",
+      "hint_page": "p75",
+      "hint_text": "**知的障害、発達障害、精神障害**は、<span class='highlight_red'>**見た目ではその障害がわかりにくく、また一人ひとりの症状にも個人差が大きい**ため、**まわりの人から理解されにくい障害**です。</span>",
+      "problem_page": 100
+    },
+    {
+      "id": 39,
+      "question": "高齢者がかかりやすい病気として、高血圧症、脳卒中、動脈硬化症、糖尿病などがある。",
+      "correct_answer": "A",
+      "hint_page": "p79",
+      "hint_text": " 1 高齢者の主な身体的特徴\n| 機能 | 変化の具体例 |\n| :--- | :--- |\n| **⑥ かかりやすい病気** | ・がん、動脈硬化症、<span class='highlight_red'>**高血圧症、糖尿病、脳卒中**</span>、骨粗しょう症、前立腺肥大、便秘など |",
+      "problem_page": 100
+    },
+    {
+      "id": 40,
+      "question": "高齢者は触覚機能の低下により、熱さがわかりにくく、やけどを負いやすくなるので、温度調節には十分注意する必要がある。",
+      "correct_answer": "A",
+      "hint_page": "p82",
+      "hint_text": " (4) 触覚機能が低下している人への介助のポイント\n* お風呂の熱さがわかりにくいので、<span class='highlight_red'>**やけどをしないように温度調節**</span>をします。\n* 電気毛布・電気あんかなどの温度に注意し、<span class='highlight_red'>**低温やけどをしないよう、長時間直接身体にふれないように工夫**</span>をします。",
+      "problem_page": 100
+    },
+    {
+      "id": 41,
+      "question": "人口は年齢によって3つの区分に分けられるが、そのうち**生産年齢人口**とは、**20歳〜60歳**までの人の数のことである。",
+      "correct_answer": "B",
+      "hint_page": "p83",
+      "hint_text": "人口は、**年齢**によって**3つに区分**されます。それらは**年少人口（0〜14歳）、<span class='highlight_red'>生産年齢人口（15〜64歳）</span>、老年人口（65歳以上）**です。",
+      "problem_page": 100
+    },
+    {
+      "id": 42,
+      "question": "「ベビーブーム」と呼ばれた第二次世界大戦後の1947年〜1949年に生まれた人たちは、「団塊の世代」と呼ばれる。",
+      "correct_answer": "A",
+      "hint_page": "p83",
+      "hint_text": "特に**「ベビーブーム」**と呼ばれた第二次世界大戦後の1947〜1949年に、年間250万人を超える出生数がありました。<span class='highlight_red'>**「団塊の世代」**と呼ばれる彼らが、一斉に65歳を超えました。</span>",
+      "problem_page": 101
+    },
+    {
+      "id": 43,
+      "question": "合計特殊出生率とは、**1人の女性が未婚・既婚を問わず、15歳〜49歳までに産む子どもの数の推計値**のことである。",
+      "correct_answer": "A",
+      "hint_page": "p84",
+      "hint_text": "**<span class='highlight_red'>未婚・既婚を問わず、1人の女性が15〜49歳までに産む子どもの数の推計値</span>**を**「合計特殊出生率」**と言います。",
+      "problem_page": 101
+    },
+    {
+      "id": 44,
+      "question": "世界の先進国では、全般的に合計特殊出生率が低下する傾向にあるが、**日本はいちじるしく低下**している。",
+      "correct_answer": "A",
+      "hint_page": "p84",
+      "hint_text": "世界の先進国では、全般的に合計特殊出生率が低下する傾向にあるが、<span class='highlight_red'>**日本ははいちじるしく低下**</span>しています。",
+      "problem_page": 101
+    },
+    {
+      "id": 45,
+      "question": "身体障害者補助犬法によって、すべての施設において身体障害者補助犬を同伴する身体障害者の受け入れが義務づけられている。",
+      "correct_answer": "A",
+      "hint_page": "p85",
+      "hint_text": "2003年10月からは飲食店・小売店・デパート・スーパーマーケット・コンビニエンスストア・ホテル・旅館・映画館・レジャー施設など、<span class='highlight_red'>**すべての民間施設においても、身体障害者補助犬同伴の身体障害者の受け入れが義務付けられており、補助犬の同伴を拒否できなくなりました。**</span>",
+      "problem_page": 101
+    },
+    {
+      "id": 46,
+      "question": "「身体障害者補助犬」とは、盲導犬・聴導犬・警察犬の3種類を言う。",
+      "correct_answer": "B",
+      "hint_page": "p86",
+      "hint_text": "「身体障害者補助犬」は、<span class='highlight_red'>**盲導犬・介助犬・聴導犬**の3種類</span>の犬の総称で「身体障害者補助犬法」によって、身体障害者の自立と社会参加を促進するという目的は共通しています。",
+      "problem_page": 101
+    },
+    {
+      "id": 47,
+      "question": "認定を受けた身体障害者補助犬は、ハーネスや胴着、ケープなどに補助犬の表示を付けている。",
+      "correct_answer": "A",
+      "hint_page": "p87",
+      "hint_text": " (4) 補助犬の表示\n認定を受けた**盲導犬・介助犬・聴導犬**は、<span class='highlight_red'>**ハーネスや胴着、ケープ**などに付けています。</span>",
+      "problem_page": 101
+    },
+    {
+      "id": 48,
+      "question": "補助犬がそばにいたら、見守るだけでお手伝いの必要はない。",
+      "correct_answer": "A",
+      "hint_page": "p88",
+      "hint_text": " 3 周囲の人々の応対、理解のあり方\n街で補助犬と補助犬使用者に出会ったら、補助犬にさわったり、大きな声を出したり、食べ物をあげたりせず、温かく見守ってください。そのうえで、<span class='highlight_red'>**使用者**が困っているようなら、**「何かお手伝いしましょうか？」と声をかけ、必要なお手伝い**をしてください。</span>",
+      "problem_page": 101
+    },
+    {
+      "id": 49,
+      "question": "心のバリアフリーではコミュニケーションをとってバリアを取り除くことを実践します。",
+      "correct_answer": "A",
+      "hint_page": "p90",
+      "hint_text": "障害のあるなしに関わらず、**お互いの理解を深め、コミュニケーションをとる**ことが**「心のバリアフリー」**の実践です。**バリアを感じている人の立場になって考え、<span class='highlight_red'>コミュニケーションをとってバリアを取り除くこと**を実践します。</span>",
+      "problem_page": 101
+    },
+    {
+      "id": 50,
+      "question": "心のバリアフリーでは、無関心をやめて相手の立場で行動することが大切である。",
+      "correct_answer": "A",
+      "hint_page": "p90",
+      "hint_text": "**<span class='highlight_red'>無関心をやめ、相手の立場になり行動しましょう！</span>**\n（中略）障害のある人や困っている人に対し「障害」をつくっているかもしれないと考え、<span class='highlight_red'>**無関心をやめ、バリアを感じている人の立場になって考え、行動**しましょう。</span>",
+      "problem_page": 101
+    }
+  ]
+}

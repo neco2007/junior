@@ -46,6 +46,7 @@ body {
 .info-color    { background: linear-gradient(135deg, #007bff 0%, #0062cc 100%); }
 .accent-color  { background: linear-gradient(135deg, #e91e63 0%, #c2185b 100%); }
 .resume-color  { background: linear-gradient(135deg, #6f42c1 0%, #5a32a3 100%); } /* 再開用（紫） */
+.past-color    { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 
 .rich-border {
     position: relative; border: 4px solid #fff;
