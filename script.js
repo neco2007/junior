@@ -1,8 +1,9 @@
 // ==========================================
 //  JUNIOR+ 完全版 script.js
+//  (絵文字削除 + 全モード保存対応)
 // ==========================================
 
-let quiz_data = { textbook_pages: {}, quizzes: [], kakomon: [] }; // kakomon追加
+let quiz_data = { textbook_pages: {}, quizzes: [], kakomon: [] };
 let currentQuizList = [];
 let currentQuizIndex = 0;
 let correctCount = 0;
@@ -24,22 +25,22 @@ const resultScreen = document.getElementById('result-screen');
 const historyScreen = document.getElementById('history-screen');
 const ruleModal = document.getElementById('rule-modal');
 const randomModal = document.getElementById('random-modal');
-const pastModal = document.getElementById('past-modal'); // 新規
+const pastModal = document.getElementById('past-modal');
 
 const titleStartBtn = document.getElementById('title-start-btn');
 const resumeBtn = document.getElementById('resume-btn'); 
 const startQuizBtn = document.getElementById('start-quiz-btn');
 const randomMenuBtn = document.getElementById('random-menu-btn');
-const pastMenuBtn = document.getElementById('past-menu-btn'); // 新規
+const pastMenuBtn = document.getElementById('past-menu-btn'); 
 const randomOptBtns = document.querySelectorAll('.random-opt-btn');
-const pastOptBtns = document.querySelectorAll('.past-opt-btn'); // 新規
+const pastOptBtns = document.querySelectorAll('.past-opt-btn'); 
 const reviewModeBtn = document.getElementById('review-mode-btn');
 const historyBtn = document.getElementById('history-btn');
 const closeHistoryBtn = document.getElementById('close-history-btn');
 const ruleStartBtn = document.getElementById('rule-start-btn');
 const closeRuleBtn = document.getElementById('close-rule-btn');
 const closeRandomBtn = document.getElementById('close-random-btn');
-const closePastBtn = document.getElementById('close-past-btn'); // 新規
+const closePastBtn = document.getElementById('close-past-btn'); 
 const quitQuizBtn = document.getElementById('quit-quiz-btn');
 const retryBtn = document.getElementById('retry-btn');
 const retryWrongBtn = document.getElementById('retry-wrong-btn');
@@ -80,28 +81,22 @@ if (loaderEl) { loaderEl.style.width = '200px'; loaderEl.style.height = '200px';
 // ==========================================
 async function fetchAllData() {
     try {
-        // kakomon.jsonも読み込むように変更
-        // 存在しない場合に備えて個別にcatchする手もあるが、今回は全部必須とする
         const [textbookRes, mondaiRes, kakomonRes] = await Promise.all([
             fetch('./data.json'),
             fetch('./mondai.json'),
-            fetch('./kakomon.json').catch(() => ({ ok: false })) // kakomonがなくても落ちないように
+            fetch('./kakomon.json').catch(() => ({ ok: false }))
         ]);
 
-        if (!textbookRes.ok || !mondaiRes.ok) throw new Error("基本データの読込失敗");
+        if (!textbookRes.ok || !mondaiRes.ok) throw new Error("読込失敗");
         
         const textbookData = await textbookRes.json();
         const mondaiData = await mondaiRes.json();
-        
-        // 過去問データの処理
         let kakomonData = [];
-        if (kakomonRes.ok) {
-            kakomonData = await kakomonRes.json();
-        }
+        if (kakomonRes.ok) kakomonData = await kakomonRes.json();
 
         quiz_data.textbook_pages = textbookData.textbook_pages || textbookData;
         quiz_data.quizzes = mondaiData.quizzes || mondaiData;
-        quiz_data.kakomon = kakomonData.quizzes || kakomonData; // 過去問
+        quiz_data.kakomon = kakomonData.quizzes || kakomonData;
 
         isDataLoaded = true;
         
@@ -121,7 +116,7 @@ function checkSavedReviewData() {
     const savedWrongIds = JSON.parse(localStorage.getItem('junior_review_queue') || '[]');
     if (savedWrongIds.length > 0) {
         reviewModeBtn.classList.remove('hidden');
-        reviewModeBtn.innerHTML = `<span class="btn-icon"></span> 間違えた問題を復習 (${savedWrongIds.length}問)`;
+        reviewModeBtn.innerHTML = `間違えた問題を復習 (${savedWrongIds.length}問)`;
     } else {
         reviewModeBtn.classList.add('hidden');
     }
@@ -209,7 +204,6 @@ function initAnimation() {
 function formatHintText(text) { return text ? text.replace(/\n/g, '<br>') : ''; }
 function formatPageNum(pageStr) { return pageStr ? pageStr.replace('p', '') : ""; }
 
-// モーダル操作
 function openRandomModal() { if (!isDataLoaded) { alert("準備中です"); return; } randomModal.classList.remove('hidden'); }
 function openPastModal() { if (!isDataLoaded) { alert("準備中です"); return; } pastModal.classList.remove('hidden'); }
 
@@ -218,7 +212,6 @@ function selectRandomCount(count) {
     randomModal.classList.add('hidden');
     triggerStartQuiz('random');
 }
-// ★過去問の選択処理
 function selectPastCount(count) {
     pendingQuestionLimit = parseInt(count);
     pastModal.classList.add('hidden');
@@ -239,27 +232,21 @@ function startQuiz() {
 
     isReviewMode = (pendingQuizMode === 'review');
     
-    // 問題リストの作成
     if (pendingQuizMode === 'review') {
         const savedIds = JSON.parse(localStorage.getItem('junior_review_queue') || '[]');
         currentQuizList = quiz_data.quizzes.filter(q => savedIds.includes(q.id)).sort(() => Math.random() - 0.5);
-        
     } else if (pendingQuizMode === 'random') {
         const shuffled = [...quiz_data.quizzes].sort(() => Math.random() - 0.5);
         currentQuizList = shuffled.slice(0, pendingQuestionLimit);
-        
     } else if (pendingQuizMode === 'kakomon') {
-        // ★過去問モード
         if (!quiz_data.kakomon || quiz_data.kakomon.length === 0) {
-            alert("過去問データがまだありません。");
+            alert("過去問データがありません");
             menuScreen.classList.remove('hidden');
             return;
         }
         const shuffled = [...quiz_data.kakomon].sort(() => Math.random() - 0.5);
         currentQuizList = shuffled.slice(0, pendingQuestionLimit);
-        
     } else {
-        // 通常
         currentQuizList = [...quiz_data.quizzes]; 
     }
 
@@ -275,19 +262,19 @@ function resumeQuiz() {
     const session = JSON.parse(localStorage.getItem('junior_quiz_session'));
     if (!session) return;
     
-    // 再開時、モードに応じて参照するデータソースを変える
     let sourceData = quiz_data.quizzes;
     if (session.mode === 'kakomon') sourceData = quiz_data.kakomon;
     
-    currentQuizList = session.quizIds.map(id => sourceData.find(q => q.id === id)).filter(q => q); // 念のためfilter
-    
+    currentQuizList = session.quizIds.map(id => sourceData.find(q => q.id === id)).filter(q => q);
     currentQuizIndex = session.index;
     correctCount = session.correct;
     wrongQuestions = session.wrongIds.map(id => sourceData.find(q => q.id === id)).filter(q => q);
     pendingQuizMode = session.mode;
     isReviewMode = (session.mode === 'review');
     pendingQuestionLimit = session.limit;
+    
     startTime = Date.now() - session.elapsed;
+
     titleScreen.classList.add('hidden'); quizScreen.classList.remove('hidden');
     loadQuiz();
 }
@@ -325,7 +312,7 @@ function loadQuiz() {
     const progress = ((currentQuizIndex + 1) / currentQuizList.length) * 100;
     progressBar.style.width = `${progress}%`;
     progressText.textContent = `${currentQuizIndex + 1} / ${currentQuizList.length}`;
-    nextBtn.textContent = (currentQuizIndex === currentQuizList.length - 1) ? "結果を見る 🏆" : "次の問題へ";
+    nextBtn.textContent = (currentQuizIndex === currentQuizList.length - 1) ? "結果を見る" : "次の問題へ";
 }
 
 function checkAnswer(selectedAnswer) {
@@ -338,10 +325,10 @@ function checkAnswer(selectedAnswer) {
     setTimeout(() => {
         processingArea.classList.add('hidden'); answerArea.classList.remove('hidden'); actionBar.classList.remove('hidden');
         if (isCorrect) {
-            feedbackEl.innerHTML = `<span class="result-big-text" style="color:#28a745;">⭕ 正解</span><div class="result-detail" style="font-size: 1.5rem;">素晴らしい！</div>`;
+            feedbackEl.innerHTML = `<span class="result-big-text" style="color:#28a745;">⭕正解</span><div class="result-detail" style="font-size: 1.5rem;">素晴らしい！</div>`;
             if(hintContainer) hintContainer.classList.add('hidden'); 
         } else {
-            feedbackEl.innerHTML = `<span class="result-big-text" style="color:#dc3545;">❌ 不正解</span><div class="result-detail">正解は「${currentQuiz.correct_answer}」です</div>`;
+            feedbackEl.innerHTML = `<span class="result-big-text" style="color:#dc3545;">❌不正解</span><div class="result-detail">正解は「${currentQuiz.correct_answer}」です</div>`;
             if(hintContainer) {
                 answerArea.appendChild(hintContainer);
                 hintContainer.classList.remove('hidden'); hintAreaEl.classList.add('hidden'); hintToggleBtn.textContent = '解説を見る';
@@ -358,7 +345,6 @@ function finishQuiz() {
     const totalSeconds = Math.floor(totalTimeMs / 1000);
     const questionCount = currentQuizList.length;
     const score = Math.round((correctCount / questionCount) * 100);
-    
     let rank = 'D';
     const avgSpeed = totalSeconds / questionCount; 
     if (score >= 96 && avgSpeed <= 5) rank = 'S';
@@ -394,22 +380,13 @@ function finishQuiz() {
             wrongAnswerList.appendChild(div);
         });
 
-        // 復習リスト保存ロジック: ランダムや過去問など、全問以外のモードは保存する
-        const isFullRandom = (pendingQuizMode === 'random' && pendingQuestionLimit === 50);
-        // 通常(全問)、復習、ランダム(全問)、過去問(全問以外も含む) なら保存
-        // というルールにするか、あるいは「常に保存」にするか。
-        // ここでは「常に間違えたら復習リストに入れる」仕様に変更します。
+        // ★保存ルール変更: どのモードでも間違えたら必ず保存（上書き）
         const wrongIds = wrongQuestions.map(q => q.id);
-        
-        // 既存のリストとマージする
-        const existing = JSON.parse(localStorage.getItem('junior_review_queue') || '[]');
-        const merged = [...new Set([...existing, ...wrongIds])]; // 重複排除
-        localStorage.setItem('junior_review_queue', JSON.stringify(merged));
+        localStorage.setItem('junior_review_queue', JSON.stringify(wrongIds));
         
     } else {
         if(wrongAnswerSection) wrongAnswerSection.classList.add('hidden');
-        // 全問正解でも復習リストを消すのは「復習モード」で完遂した時だけにするのが安全
-        if(isReviewMode) localStorage.removeItem('junior_review_queue');
+        if(!isReviewMode && pendingQuizMode === 'normal') localStorage.removeItem('junior_review_queue');
     }
 
     saveHistory(rank, score, totalSeconds, questionCount);
@@ -464,7 +441,7 @@ function showHistory() {
                 });
                 html += `</div>`;
             } else {
-                html += `<div class="history-details">✨ 全問正解です！</div>`;
+                html += `<div class="history-details">全問正解です！</div>`;
             }
             div.innerHTML = html;
             div.querySelector('.history-header').addEventListener('click', () => { div.classList.toggle('open'); });
@@ -482,7 +459,6 @@ if(resumeBtn) resumeBtn.addEventListener('click', resumeQuiz);
 if(randomMenuBtn) randomMenuBtn.addEventListener('click', openRandomModal);
 randomOptBtns.forEach(btn => { btn.addEventListener('click', () => selectRandomCount(btn.dataset.count)); });
 
-// ★新規: 過去問ボタン
 if(pastMenuBtn) pastMenuBtn.addEventListener('click', openPastModal);
 if(pastOptBtns) pastOptBtns.forEach(btn => { btn.addEventListener('click', () => selectPastCount(btn.dataset.count)); });
 
@@ -491,7 +467,7 @@ if(reviewModeBtn) reviewModeBtn.addEventListener('click', () => triggerStartQuiz
 if(ruleStartBtn) ruleStartBtn.addEventListener('click', startQuiz);
 if(closeRuleBtn) closeRuleBtn.addEventListener('click', () => ruleModal.classList.add('hidden'));
 if(closeRandomBtn) closeRandomBtn.addEventListener('click', () => randomModal.classList.add('hidden'));
-if(closePastBtn) closePastBtn.addEventListener('click', () => pastModal.classList.add('hidden')); // 新規
+if(closePastBtn) closePastBtn.addEventListener('click', () => pastModal.classList.add('hidden'));
 
 if(historyBtn) historyBtn.addEventListener('click', showHistory);
 if(closeHistoryBtn) closeHistoryBtn.addEventListener('click', () => { historyScreen.classList.add('hidden'); menuScreen.classList.remove('hidden'); });
