@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JUNIOR+ | サービス介助士ジュニア学習</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="opening-canvas"></canvas>
+
+    <div id="title-screen" class="screen hidden">
+        <div class="center-content">
+            <h1 class="app-title">JUNIOR+</h1>
+            <p class="sub-title">サービス介助士ジュニア<br>資格取得講座</p>
+            
+            <button id="resume-btn" class="primary-btn resume-color hidden">
+                前回から再開する
+            </button>
+
+            <button id="title-start-btn" class="primary-btn pulse">学習メニューへ</button>
+        </div>
+    </div>
+
+    <div id="menu-screen" class="screen hidden">
+        <div class="center-content">
+            <h2 class="menu-title">メインメニュー</h2>
+            
+            <div class="menu-buttons">
+                <button id="random-menu-btn" class="menu-btn accent-color">
+                    <span class="btn-icon"></span> ランダム出題
+                </button>
+
+                <button id="start-quiz-btn" class="menu-btn primary-color rich-border">
+                    <span class="btn-icon"></span> 問題を開始
+                </button>
+
+                <button id="review-mode-btn" class="menu-btn success-color hidden">
+                    <span class="btn-icon"></span> 間違えた問題を復習
+                </button>
+
+                <button id="history-btn" class="menu-btn info-color">
+                    <span class="btn-icon"></span> 学習履歴
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="random-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-random-btn" class="modal-close-icon">×</button>
+            <h2 class="modal-title">出題数を選択</h2>
+            <p style="margin-bottom:20px; color:#666;">このモードの結果は<br>「復習リスト」には保存されません。</p>
+            <div class="menu-buttons" style="margin: 0 auto;">
+                <button class="menu-btn accent-color random-opt-btn" data-count="5">5問 (サクッと)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="15">15問 (ちょうどいい)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="25">25問 (がっつり)</button>
+                <button class="menu-btn accent-color random-opt-btn" data-count="50">全問 (50問)</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="rule-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="close-rule-btn" class="modal-close-icon">×</button>
+            <h2 class="modal-title">ルール説明</h2>
+            <div class="rule-list">
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <div>
+                        <p>正しいものは <strong>A 正しい</strong></p>
+                        <p>間違いは <strong>B 誤っている</strong></p>
+                        <p>を選択してください。</p>
+                    </div>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <p>1問<strong>2点</strong>です。<br>合計点とタイムを競います。</p>
+                </div>
+                <div class="rule-item">
+                    <span class="rule-icon"></span>
+                    <p><strong>70点以上</strong>で合格圏内！<br>回答速度と正確さで<br><strong>ランク(S~D)</strong>が決まります。</p>
+                </div>
+            </div>
+            <button id="rule-start-btn" class="primary-btn">理解してスタート！</button>
+        </div>
+    </div>
+
+    <div id="quiz-screen" class="screen hidden">
+        <header>
+            <div class="header-inner">
+                <button id="quit-quiz-btn" class="text-btn">✕ 中断</button>
+                <span id="progress-text">1 / 50</span>
+            </div>
+            <div id="progress-bar"><div id="progress-fill"></div></div>
+        </header>
+
+        <main>
+            <div id="quiz-card">
+                <div id="question-area">
+                    <h2 id="question-number">Q.1</h2>
+                    <p id="question-text">問題を読み込んでいます...</p>
+
+                    <div id="options">
+                        <button class="option-btn" data-answer="A">
+                            <span class="opt-label">A</span> 正しい
+                        </button>
+                        <button class="option-btn" data-answer="B">
+                            <span class="opt-label">B</span> 誤っている
+                        </button>
+                    </div>
+
+                    <div id="hint-container">
+                        <button id="hint-toggle-btn">ヒントを見る</button>
+                        <div id="hint-area" class="hidden">
+                            <p id="hint-page-info"></p>
+                            <div id="hint-text"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="processing-area" class="hidden">
+                    <div class="colorful-loader"></div>
+                    <p class="loading-text">判定中...</p>
+                </div>
+
+                <div id="answer-area" class="hidden">
+                    <div id="feedback"></div>
+                </div>
+            </div>
+        </main>
+
+        <div id="action-bar" class="hidden">
+            <button id="next-btn" class="action-btn">次の問題へ</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <div class="result-container">
+            <h2 class="result-title">結果発表</h2>
+            
+            <div id="score-board">
+                <div class="rank-badge" id="result-rank">-</div>
+                <div class="score-display">
+                    <span id="result-score">0</span><span class="unit">点</span>
+                </div>
+                <p id="pass-fail-text" class="pass-fail">判定...</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="label">正解率</span>
+                    <span class="value" id="result-accuracy">0%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">回答時間</span>
+                    <span class="value" id="result-time">0分00秒</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">平均速度</span>
+                    <span class="value" id="result-speed">0秒/問</span>
+                </div>
+            </div>
+
+            <div id="wrong-answer-section" class="hidden">
+                <h3>間違えた問題の復習</h3>
+                <div id="wrong-answer-list"></div>
+                <button id="retry-wrong-btn" class="menu-btn success-color" style="margin-top:20px;">この内容で反復練習する</button>
+            </div>
+
+            <button id="back-to-menu-btn" class="menu-btn primary-color" style="margin-top:20px;">メインメニューに戻る</button>
+        </div>
+    </div>
+
+    <div id="history-screen" class="screen hidden">
+        <header>
+            <div class="header-inner">
+                <span class="logo-mini">学習履歴</span>
+                <button id="close-history-btn" class="close-btn">✕ 閉じる</button>
+            </div>
+        </header>
+        <main>
+            <div id="history-list"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
